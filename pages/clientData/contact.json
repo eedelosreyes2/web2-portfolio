@@ -19,6 +19,11 @@
       "id": 3,
       "platform": "Email",
       "url": "mailto:delosreyes.elijah@gmail.com"
+    },
+    {
+      "id": 4,
+      "platform": "Discord",
+      "url": "https://discordapp.com/users/451874012734423050"
     }
   ]
 }
