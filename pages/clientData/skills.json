@@ -1,10 +1,13 @@
 {
   "skills": [
     "Javascript",
-    "HTML/CSS",
-    "Tailwind",
+    "Typescript",
     "React/Next",
+    "Tailwind",
+    "Bootstrap",
     "Vue",
+    "JSX",
+    "HTML/CSS",
     "Node",
     "Prisma",
     "Postgres",

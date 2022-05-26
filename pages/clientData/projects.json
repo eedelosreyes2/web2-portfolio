@@ -6,11 +6,9 @@
       "dates": "Apr - May 2022",
       "description": "Created a web3 discovery web app where you will find companies and platforms in the ecosystem. Whether you are an investor or NFT noob looking for resources, you can filter, search, and view entries from our collection by blockchain or type of company.",
       "skills": [
-        "Javascript",
         "Typescript",
-        "HTML/CSS",
         "Next",
-        "Bootstrap",
+        "Tailwind",
         "Prisma",
         "Postgres",
         "Heroku",
@@ -25,10 +23,9 @@
       "description": "Built a web app where you can curate and personalize your favorite content on the internet. Using our Chrome extension or by manually adding a url, you can organize blog posts, tweets, youtube videos, etc. into boards and share them with your friends.",
       "skills": [
         "Javascript",
-        "HTML/CSS",
         "React",
+        "Styled-Components",
         "Node",
-        "Bootstrap",
         "Firebase",
         "Google Cloud"
       ],
@@ -39,7 +36,7 @@
       "title": "Twitter React App v1.1",
       "dates": "July - Sep 2020",
       "description": "Created a replica of Twitter web app using React.js. My app provides basic post, like, and retweet functionality and a rich, interactive, and well-performing user interface which looks identical to Twitter. It is also optimized for all devices, try them all out!",
-      "skills": ["Javascript", "HTML/CSS", "React", "Node", "Bootstrap"],
+      "skills": ["Javascript", "React", "JSX", "Bootstrap", "Node"],
       "url": "https://twitter-react-eli.vercel.app"
     }
   ]
