@@ -34,7 +34,6 @@
       "description": "Developed a dynamic website featuring a social media aggregator. This website pulls a user’s posts from Twitter, Facebook, and Instagram, stores data into MongoDB, and displays all onto a single, elegant newsfeed. Developed the server, database collection, and client interface using NodeJS, VueJS, Express, Axios, and HTML/CSS.",
       "skills": [
         "Javascript",
-        "HTML/CSS",
         "Node",
         "Vue",
         "Express",
