@@ -5,25 +5,27 @@
       "platform": "Github",
       "url": "https://github.com/eedelosreyes2"
     },
+
+    {
+      "id": 2,
+      "platform": "Twitter",
+      "url": "https://twitter.com/_elijah_d_r"
+    },
+
+    {
+      "id": 4,
+      "platform": "Discord",
+      "url": "https://discordapp.com/users/451874012734423050"
+    },
     {
       "id": 1,
       "platform": "LinkedIn",
       "url": "https://www.linkedin.com/in/elijah-delos-reyes"
     },
     {
-      "id": 2,
-      "platform": "Twitter",
-      "url": "https://twitter.com/_elijah_d_r"
-    },
-    {
       "id": 3,
       "platform": "Email",
       "url": "mailto:delosreyes.elijah@gmail.com"
-    },
-    {
-      "id": 4,
-      "platform": "Discord",
-      "url": "https://discordapp.com/users/451874012734423050"
     }
   ]
 }
