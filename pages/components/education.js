@@ -10,7 +10,7 @@ export default function Education() {
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center font-bold text-cyan-500 pr-2"
+          className="underline flex items-center font-bold text-cyan-500 pr-2"
         >
           {school}
         </a>

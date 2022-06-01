@@ -12,7 +12,7 @@ export default function Projects() {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-end font-bold text-2xl text-cyan-500"
+                className="underline flex items-end font-bold text-2xl text-cyan-500"
               >
                 {title}
               </a>
