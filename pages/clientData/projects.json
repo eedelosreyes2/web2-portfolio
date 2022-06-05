@@ -4,9 +4,9 @@
       "id": 3,
       "title": "Solana Pay Store",
       "dates": "June 2022",
-      "description": "Set up a store that integrates Solana Pay so you can buy products with SPL tokens. Built on buildspace.",
+      "description": "Set up a store that integrates Solana Pay so you can buy products with SPL tokens (only on devnet for now). Built on buildspace.",
       "skills": ["Solana Pay", "Solana Wallet Adapter", "Next", "IPFS"],
-      "url": ""
+      "url": "https://solana-pay-eli.vercel.app"
     },
     {
       "id": 2,
