@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "id": 4,
+      "title": "Solana Wallet Tracker",
+      "dates": "June 2022",
+      "description": "View the balances and nfts from a Solana wallet.",
+      "skills": ["Solana Web3", "JSON RPC API", "Next", "Tailwind"],
+      "url": "https://solana-wallet-tracker-eli.vercel.app"
+    },
+    {
       "id": 3,
       "title": "Solana Pay Store",
       "dates": "June 2022",
