@@ -27,8 +27,7 @@
         "Tailwind",
         "Prisma",
         "Postgres",
-        "Heroku",
-        "Node"
+        "Heroku"
       ],
       "url": "https://web3-company-discovery.vercel.app"
     },
@@ -41,7 +40,6 @@
         "Javascript",
         "React",
         "Styled-Components",
-        "Node",
         "Firebase",
         "Google Cloud"
       ],
@@ -52,7 +50,7 @@
       "title": "Twitter React App v1.1",
       "dates": "July - Sep 2020",
       "description": "Created a replica of Twitter web app using React.js. My app provides basic post, like, and retweet functionality and a rich, interactive, and well-performing user interface which looks identical to Twitter. It is also optimized for all devices, try them all out!",
-      "skills": ["Javascript", "React", "JSX", "Bootstrap", "Node"],
+      "skills": ["Javascript", "React", "JSX", "Bootstrap"],
       "url": "https://twitter-react-eli.vercel.app"
     }
   ]
