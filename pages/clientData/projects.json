@@ -4,7 +4,7 @@
       "id": 4,
       "title": "Solana Wallet Tracker",
       "dates": "June 2022",
-      "description": "View the balances and nfts from a Solana wallet.",
+      "description": "View the balances and nfts (wip) from a Solana wallet.",
       "skills": [
         "Solana Web3",
         "JSON RPC",
