@@ -5,7 +5,13 @@
       "title": "Solana Wallet Tracker",
       "dates": "June 2022",
       "description": "View the balances and nfts from a Solana wallet.",
-      "skills": ["Solana Web3", "JSON RPC API", "Next", "Tailwind"],
+      "skills": [
+        "Solana Web3",
+        "JSON RPC",
+        "Magic Eden API",
+        "Next",
+        "Tailwind"
+      ],
       "url": "https://solana-wallet-tracker-eli.vercel.app"
     },
     {
