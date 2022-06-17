@@ -8,15 +8,15 @@ export default function Work() {
         <div key={id} className="pb-10">
           <div className="flex-column pb-2">
             <div className="flex justify-between items-center pb-1">
-              <a
+              <div // a
                 key={id}
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline flex items-center font-bold text-cyan-500 pr-2"
+                className="flex items-center font-bold text-cyan-500 pr-2"
               >
                 {company}
-              </a>
+              </div>
               <div className="text-sm">{dates}</div>
             </div>
             <div className="font-bold text-2xl">{title}</div>

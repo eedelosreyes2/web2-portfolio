@@ -6,14 +6,14 @@ export default function Education() {
     <div>
       <div className="font-bold pb-5">Education</div>
       <div className="flex justify-between items-center pb-1">
-        <a
+        <div // a
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="underline flex items-center font-bold text-cyan-500 pr-2"
+          className="flex items-center font-bold text-cyan-500 pr-2"
         >
           {school}
-        </a>
+        </div>
         <div className="text-sm">{date}</div>
       </div>
       <div className="font-bold text-2xl pb-2">{degree}</div>

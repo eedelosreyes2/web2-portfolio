@@ -12,7 +12,8 @@
         "Next",
         "Tailwind"
       ],
-      "url": "https://solana-wallet-tracker-eli.vercel.app"
+      "url": "https://solana-wallet-tracker-eli.vercel.app",
+      "github_url": "https://github.com/eedelosreyes2/solana-wallet-tracker"
     },
     {
       "id": 3,
@@ -20,7 +21,8 @@
       "dates": "June 2022",
       "description": "Set up a store that integrates Solana Pay so you can buy products with SPL tokens. Built on buildspace.",
       "skills": ["Solana Pay", "Solana Wallet Adapter", "Next", "IPFS"],
-      "url": "https://solana-pay-eli.vercel.app"
+      "url": "https://solana-pay-eli.vercel.app",
+      "github_url": "https://github.com/eedelosreyes2/solana-pay-starter"
     },
     {
       "id": 2,
@@ -35,7 +37,8 @@
         "Postgres",
         "Heroku"
       ],
-      "url": "https://web3-company-discovery.vercel.app"
+      "url": "https://web3-company-discovery.vercel.app",
+      "github_url": "https://github.com/eedelosreyes2/web3-company-discovery"
     },
     {
       "id": 1,
@@ -49,15 +52,17 @@
         "Firebase",
         "Google Cloud"
       ],
-      "url": "https://diffusion-pinboard-creator-mvp.vercel.app"
+      "url": "https://diffusion-pinboard-creator-mvp.vercel.app",
+      "github_url": "https://github.com/eedelosreyes2/diffusion-pinboard-creator-mvp"
     },
     {
       "id": 0,
-      "title": "Twitter React App v1.1",
+      "title": "Twitter React App",
       "dates": "July - Sep 2020",
       "description": "Created a replica of Twitter web app using React.js. My app provides basic post, like, and retweet functionality and a rich, interactive, and well-performing user interface which looks identical to Twitter. It is also optimized for all devices, try them all out!",
       "skills": ["Javascript", "React", "JSX", "Bootstrap"],
-      "url": "https://twitter-react-eli.vercel.app"
+      "url": "https://twitter-react-eli.vercel.app",
+      "github_url": "https://github.com/eedelosreyes2/twitter-react"
     }
   ]
 }
