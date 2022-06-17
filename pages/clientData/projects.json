@@ -4,7 +4,7 @@
       "id": 4,
       "title": "Solana Wallet Tracker",
       "dates": "June 2022",
-      "description": "View the balances and nfts (wip) from a Solana wallet.",
+      "description": "View the balances and nfts from a Solana wallet.",
       "skills": [
         "Solana Web3",
         "JSON RPC",
@@ -18,7 +18,7 @@
       "id": 3,
       "title": "Solana Pay Store",
       "dates": "June 2022",
-      "description": "Set up a store that integrates Solana Pay so you can buy products with SPL tokens (only on devnet for now). Built on buildspace.",
+      "description": "Set up a store that integrates Solana Pay so you can buy products with SPL tokens. Built on buildspace.",
       "skills": ["Solana Pay", "Solana Wallet Adapter", "Next", "IPFS"],
       "url": "https://solana-pay-eli.vercel.app"
     },
