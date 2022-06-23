@@ -12,14 +12,14 @@ export default function Projects() {
           <div key={id} className="pb-10">
             <div className="flex-column pb-2">
               <div className="flex justify-between items-center">
-                <div // a
+                <a // a
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-end font-bold text-2xl text-cyan-500"
                 >
                   {title}
-                </div>
+                </a>
                 <div className="flex items-center">
                   <IconContext.Provider
                     value={{ size: 25, className: 'text-cyan-500 mx-3' }}
