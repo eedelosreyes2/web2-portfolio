@@ -4,7 +4,7 @@
       "id": 4,
       "title": "Solana Wallet Tracker",
       "dates": "June 2022",
-      "description": "View the balances and nfts from a Solana wallet.",
+      "description": "View the balances and nfts from a Solana wallet. Created to learn basic Solana dev.",
       "skills": [
         "Solana Web3",
         "JSON RPC",
@@ -28,7 +28,7 @@
       "id": 2,
       "title": "Web3 Discovery",
       "dates": "Apr - May 2022",
-      "description": "Created a web3 discovery web app where you will find companies and platforms in the ecosystem. Whether you are an investor or NFT noob looking for resources, you can filter, search, and view entries from our collection by blockchain or type of company.",
+      "description": "Created a web3 discovery web app where you will find companies and platforms in the ecosystem. Filter, search, and view entries from our collection by blockchain or type of company.",
       "skills": [
         "Typescript",
         "Next",
