@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "id": 5,
+      "title": "Whac-a-NFT",
+      "dates": "July 2022",
+      "description": "Integrate your NFTs into a play-to-earn Whac-a-Mole-like blockchain game and view the on-chain scores of other players!",
+      "skills": ["Moralis", "Next", "Tailwind"],
+      "url": "https://whac-a-nft.vercel.app/",
+      "github_url": "https://github.com/eedelosreyes2/whac-a-nft"
+    },
+    {
       "id": 4,
       "title": "Solana Wallet Tracker",
       "dates": "June 2022",
