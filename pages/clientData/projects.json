@@ -5,7 +5,7 @@
       "title": "Whac-a-NFT",
       "dates": "July 2022",
       "description": "Integrate your NFTs into a play-to-earn Whac-a-Mole-like blockchain game and view the on-chain scores of other players!",
-      "skills": ["Moralis", "Next", "Tailwind"],
+      "skills": ["Moralis Solana API", "Next", "Tailwind"],
       "url": "https://whac-a-nft.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/whac-a-nft"
     },
@@ -17,7 +17,7 @@
       "skills": [
         "Solana Web3",
         "JSON RPC",
-        "Magic Eden API",
+        "Moralis Solana API",
         "Next",
         "Tailwind"
       ],
