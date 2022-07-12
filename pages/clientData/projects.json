@@ -5,7 +5,7 @@
       "title": "Whac-a-NFT",
       "dates": "July 2022",
       "description": "Integrate your NFTs into a play-to-earn Whac-a-Mole-like blockchain game and view the on-chain scores of other players! (wip)",
-      "skills": ["Moralis Solana API", "Next", "Tailwind"],
+      "skills": ["Moralis Solana", "Typescript", "Next", "Tailwind"],
       "url": "https://whac-a-nft.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/whac-a-nft"
     },
@@ -17,7 +17,8 @@
       "skills": [
         "Solana Web3",
         "JSON RPC",
-        "Moralis Solana API",
+        "Moralis Solana",
+        "Typescript",
         "Next",
         "Tailwind"
       ],
@@ -29,7 +30,13 @@
       "title": "Solana Pay Store",
       "dates": "June 2022",
       "description": "Set up a store that integrates Solana Pay so you can buy products with SPL tokens. Built on buildspace.",
-      "skills": ["Solana Pay", "Solana Wallet Adapter", "Next", "IPFS"],
+      "skills": [
+        "Solana Pay",
+        "Solana Wallet Adapter",
+        "Typescript",
+        "Next",
+        "IPFS"
+      ],
       "url": "https://solana-pay-eli.vercel.app",
       "github_url": "https://github.com/eedelosreyes2/solana-pay-starter"
     },
