@@ -1,29 +1,32 @@
 {
   "contact": [
     {
+      "id": 1,
+      "platform": "Twitter (Personal)",
+      "url": "https://twitter.com/_elijah_d_r"
+    },
+    {
       "id": 0,
       "platform": "Github",
       "url": "https://github.com/eedelosreyes2"
     },
-
     {
       "id": 2,
-      "platform": "Twitter",
-      "url": "https://twitter.com/_elijah_d_r"
+      "platform": "Twitter (NFTs)",
+      "url": "https://twitter.com/0xElijah"
     },
-
     {
-      "id": 4,
+      "id": 3,
       "platform": "Discord",
       "url": "https://discordapp.com/users/451874012734423050"
     },
     {
-      "id": 1,
+      "id": 4,
       "platform": "LinkedIn",
       "url": "https://www.linkedin.com/in/elijah-delos-reyes"
     },
     {
-      "id": 3,
+      "id": 5,
       "platform": "Email",
       "url": "mailto:delosreyes.elijah@gmail.com"
     }

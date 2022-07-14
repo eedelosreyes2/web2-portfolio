@@ -1,8 +1,22 @@
 import { contact } from '../clientData/contact.json';
-import { IconContext } from 'react-icons';
-import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 
 export default function Web3() {
+  const renderButton = (id, platform, url) => (
+    <div key={id} className="text-center w-[49%] mb-3">
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-bold text-white"
+      >
+        <div className='bg-gradient-to-r from-indigo-500 to-pink-500
+          w-full rounded-md p-3'>
+          {platform}
+        </div>
+      </a>
+    </div>
+  )
+
   return (
     <div>
       <div className="font-bold pb-5">Gm</div>
@@ -10,23 +24,9 @@ export default function Web3() {
         Elijah here, a web2 dev (but web3 degen) currently learning and looking
         to extend my skills into web3.
       </div>
-      <div className="flex justify-start flex-wrap">
+      <div className="flex justify-between flex-wrap mt-5">
         {contact.map(({ id, platform, url }) => (
-          <div key={id} className="inline-block pr-5">
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center font-bold text-cyan-500"
-            >
-              {platform}
-              <IconContext.Provider
-                value={{ size: 15, className: 'text-cyan-500 mx-1' }}
-              >
-                <FaExternalLinkSquareAlt />
-              </IconContext.Provider>
-            </a>
-          </div>
+          renderButton(id, platform, url)
         ))}
       </div>
     </div>
