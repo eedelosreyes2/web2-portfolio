@@ -54,10 +54,10 @@ export default function Projects() {
           <div key={id} className="pb-20">
             <div className="flex-column pb-2">
               <div className="flex justify-between items-center">
-                <div className="flex items-end font-bold text-2xl text-cyan-500">
+                <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
-                <div className="text-sm">{dates}</div>
+                {/* <div className="text-sm">{dates}</div> */}
               </div>
             </div>
             <div className="mb-2">{description}</div>
