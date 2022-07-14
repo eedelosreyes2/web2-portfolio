@@ -2,22 +2,24 @@
   "skills": [
     "Javascript",
     "Typescript",
-    "React/Next",
+    "React",
+    "Next",
     "Vue",
     "Tailwind",
     "Bootstrap",
     "HTML/CSS",
     "JSX",
     "Node",
+    "MongoDB",
     "Prisma",
     "Postgres",
     "Heroku",
     "Firebase",
     "Google Cloud",
-    "MongoDB",
     "Postman",
     "Drupal",
     "PHP",
-    "Python"
+    "Python",
+    "Rust"
   ]
 }
