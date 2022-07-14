@@ -5,8 +5,8 @@ import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 
 export default function Projects() {
   const renderButton = (id, url, github_url) => {
-    const colorClass = url ? 'bg-gradient-to-br from-green-400 to-lime-600 rounded-md p-3 flex items-center'
-      : 'bg-gradient-to-br from-green-400 to-indigo-500 rounded-md p-3 flex items-center'
+    const colorClass = url ? 'bg-gradient-to-br from-green-400 to-lime-600 rounded-md p-2 sm:p-3 flex items-center'
+      : 'bg-gradient-to-br from-green-400 to-indigo-500 rounded-md p-2 sm:p-3 flex items-center'
 
     return (
       <div key={id} className="text-center mt-3 mr-3">
