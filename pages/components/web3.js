@@ -9,7 +9,7 @@ export default function Web3() {
         rel="noopener noreferrer"
         className="font-bold text-white"
       >
-        <div className='bg-gradient-to-r from-indigo-500 to-pink-500
+        <div className='bg-gradient-to-br from-indigo-500 to-pink-500
           w-full rounded-md p-3'>
           {platform}
         </div>
