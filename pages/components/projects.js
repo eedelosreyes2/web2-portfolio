@@ -17,7 +17,7 @@ export default function Projects() {
           className="font-bold text-white"
         >
           <div className={colorClass}>
-            {url ? 'Live Demo' : 'View Code'}
+            {url ? 'App' : 'Code'}
             {url && 
             <IconContext.Provider value={{ size: 20 }}>
               <a 
