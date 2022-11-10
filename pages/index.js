@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <div className="bg-cyan-500 h-2"></div>
-      <div className="mx-auto max-w-xl px-5 sm:px-10">
+      <div className="mx-auto max-w-xl px-5 sm:px-10 pb-24">
         <Intro />
         <Web3 />
         <Divider />
