@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <div className="flex items-center py-16">
       <Image
-        src="/NAC3221.gif"
+        src="/elijah_dr.jpeg"
         alt="elijahdr"
         className="rounded-full"
         height={100}
