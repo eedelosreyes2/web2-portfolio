@@ -10,7 +10,7 @@ export default function Intro() {
         height={100}
         width={100}
       />
-      <div className="font-bold pl-5">elijah dr</div>
+      <div className="font-bold pl-5">elijah delos reyes</div>
     </div>
   );
 }
