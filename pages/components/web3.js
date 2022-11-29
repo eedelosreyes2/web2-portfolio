@@ -11,7 +11,7 @@ export default function Web3() {
       >
         <div
           className="bg-gradient-to-br via-blue-500 from-indigo-500 to-cyan-500
-          w-full rounded-full p-2 px-3"
+          w-full rounded-full p-2 px-4"
         >
           {platform}
         </div>
@@ -27,7 +27,7 @@ export default function Web3() {
         to extend my skills into web3.
       </div> */}
       <div>
-        <div className="flex mt-5">
+        <div className="flex">
           <div className="flex justify-start flex-wrap">
             {contact.map(({ id, platform, url }) =>
               renderButton(id, platform, url)

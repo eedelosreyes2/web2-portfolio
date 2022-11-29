@@ -16,6 +16,11 @@
       "url": "https://github.com/eedelosreyes2"
     },
     {
+      "id": 5,
+      "platform": "Email",
+      "url": "mailto:delosreyes.elijah@gmail.com"
+    },
+    {
       "id": 3,
       "platform": "Discord",
       "url": "https://discordapp.com/users/451874012734423050"
@@ -24,11 +29,6 @@
       "id": 4,
       "platform": "LinkedIn",
       "url": "https://www.linkedin.com/in/elijah-delos-reyes"
-    },
-    {
-      "id": 5,
-      "platform": "Email",
-      "url": "mailto:delosreyes.elijah@gmail.com"
     }
   ]
 }

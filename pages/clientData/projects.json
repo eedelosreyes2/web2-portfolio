@@ -1,6 +1,32 @@
 {
   "projects": [
     {
+      "id": 7,
+      "title": "The Underground Universal App",
+      "dates": "Sep 2022",
+      "description": "Discover fellow underground hip hop talent and collaborate with them on a project you're passionate about while getting all the support you need as a rising artist.",
+      "skills": [
+        "PostgreSQL",
+        "GraphQL",
+        "Prisma",
+        "AWS S3",
+        "Typescript",
+        "Next",
+        "Tailwind"
+      ],
+      "url": "https://www.undergrounduniversal.com/",
+      "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
+    },
+    {
+      "id": 6,
+      "title": "Underground Universal",
+      "dates": "Sep 2022",
+      "description": "Website for Underground Universal: The Hip-Hop label that works for the artist. It's your music, your art. We take 0% of your royalties. At the heart of Underground Universal is a record label that puts the artist first.",
+      "skills": ["Typescript", "Next", "Tailwind"],
+      "url": "https://www.undergrounduniversal.com/",
+      "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
+    },
+    {
       "id": 5,
       "title": "Whac-a-NFT",
       "dates": "July 2022",
