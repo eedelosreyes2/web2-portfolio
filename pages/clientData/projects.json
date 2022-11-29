@@ -14,8 +14,8 @@
         "Next",
         "Tailwind"
       ],
-      "url": "https://www.undergrounduniversal.com/",
-      "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
+      "url": "https://underground-universal-01.vercel.app/",
+      "github_url": "https://github.com/eedelosreyes2/underground-universal-0.1"
     },
     {
       "id": 6,
@@ -26,6 +26,33 @@
       "url": "https://www.undergrounduniversal.com/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
     },
+
+    {
+      "id": 1,
+      "title": "Diffusion Board Creator",
+      "dates": "May - Aug 2021",
+      "description": "Built a web app where you can curate and personalize your favorite content on the internet. Using our Chrome extension or by manually adding a url, you can organize blog posts, tweets, youtube videos, etc. into boards and share them with your friends.",
+      "skills": [
+        "Javascript",
+        "React",
+        "Styled-Components",
+        "Firebase",
+        "Google Cloud"
+      ],
+      "url": "https://diffusion-pinboard-creator-mvp.vercel.app",
+      "github_url": "https://github.com/eedelosreyes2/diffusion-pinboard-creator-mvp"
+    },
+    {
+      "id": 0,
+      "title": "Twitter React App",
+      "dates": "July - Sep 2020",
+      "description": "Created a replica of Twitter web app using React.js. My app provides basic post, like, and retweet functionality and a rich, interactive, and well-performing user interface which looks identical to Twitter. It is also optimized for all devices, try them all out!",
+      "skills": ["Javascript", "React", "JSX", "Bootstrap"],
+      "url": "https://twitter-react-eli.vercel.app",
+      "github_url": "https://github.com/eedelosreyes2/twitter-react"
+    }
+  ],
+  "web3Projects": [
     {
       "id": 5,
       "title": "Whac-a-NFT",
@@ -81,30 +108,6 @@
       ],
       "url": "https://web3-company-discovery.vercel.app",
       "github_url": "https://github.com/eedelosreyes2/web3-company-discovery"
-    },
-    {
-      "id": 1,
-      "title": "Diffusion Board Creator",
-      "dates": "May - Aug 2021",
-      "description": "Built a web app where you can curate and personalize your favorite content on the internet. Using our Chrome extension or by manually adding a url, you can organize blog posts, tweets, youtube videos, etc. into boards and share them with your friends.",
-      "skills": [
-        "Javascript",
-        "React",
-        "Styled-Components",
-        "Firebase",
-        "Google Cloud"
-      ],
-      "url": "https://diffusion-pinboard-creator-mvp.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/diffusion-pinboard-creator-mvp"
-    },
-    {
-      "id": 0,
-      "title": "Twitter React App",
-      "dates": "July - Sep 2020",
-      "description": "Created a replica of Twitter web app using React.js. My app provides basic post, like, and retweet functionality and a rich, interactive, and well-performing user interface which looks identical to Twitter. It is also optimized for all devices, try them all out!",
-      "skills": ["Javascript", "React", "JSX", "Bootstrap"],
-      "url": "https://twitter-react-eli.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/twitter-react"
     }
   ]
 }

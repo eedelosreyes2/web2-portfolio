@@ -1,4 +1,5 @@
-import { projects } from '../clientData/projects.json';
+import { projects, web3Projects } from '../clientData/projects.json';
+import Divider from './divider';
 import { IconContext } from 'react-icons';
 import { FaGithub } from 'react-icons/fa';
 import { FaExternalLinkSquareAlt } from 'react-icons/fa';
@@ -53,6 +54,38 @@ export default function Projects() {
     <>
       <div className="font-bold pb-5">Projects</div>
       {projects.map(
+        ({ id, title, dates, description, skills, url, github_url }) => (
+          <div key={id} className="pb-20">
+            <div className="flex-column pb-2">
+              <div className="flex justify-between items-center">
+                <div className="flex items-end font-bold text-3xl text-cyan-500">
+                  {title}
+                </div>
+                {/* <div className="text-sm">{dates}</div> */}
+              </div>
+            </div>
+            <div className="mb-2">{description}</div>
+            <div className="flex flex-wrap mb-3">
+              {skills.map((skill) => (
+                <div
+                  key={skill}
+                  className="font-bold text-violet-600 text-sm pr-3"
+                >
+                  {skill}
+                </div>
+              ))}
+            </div>
+            <div className="flex justify-start flex-wrap">
+              {renderButton(id, url, null)}
+              {renderButton(id, null, github_url)}
+            </div>
+          </div>
+        )
+      )}
+
+      <Divider />
+      <div className="font-bold pb-5">Web3 Projects</div>
+      {web3Projects.map(
         ({ id, title, dates, description, skills, url, github_url }) => (
           <div key={id} className="pb-20">
             <div className="flex-column pb-2">
