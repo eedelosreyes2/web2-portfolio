@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Intro() {
   return (
-    <div className="flex items-center py-16">
+    <div className="flex items-center pt-16 pb-5">
       <Image
         src="/elijah_dr.jpeg"
         alt="elijahdr"

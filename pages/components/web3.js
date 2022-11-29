@@ -11,7 +11,7 @@ export default function Web3() {
       >
         <div
           className="bg-gradient-to-br via-blue-500 from-indigo-500 to-cyan-500
-          w-full rounded-md p-2 sm:p-3"
+          w-full rounded-full p-2 px-3 sm:p-3 sm:px-5"
         >
           {platform}
         </div>
