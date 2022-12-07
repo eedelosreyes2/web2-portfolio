@@ -12,7 +12,8 @@
         "AWS S3",
         "Typescript",
         "Next",
-        "Tailwind"
+        "Tailwind",
+        "Figma"
       ],
       "url": "https://underground-universal-01.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-0.1"
@@ -22,7 +23,7 @@
       "title": "Underground Universal",
       "dates": "Sep 2022",
       "description": "Website for Underground Universal: The Hip-Hop label that works for the artist. It's your music, your art. We take 0% of your royalties. At the heart of Underground Universal is a record label that puts the artist first.",
-      "skills": ["Typescript", "Next", "Tailwind"],
+      "skills": ["Typescript", "Next", "Tailwind", "Figma"],
       "url": "https://www.undergrounduniversal.com/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
     },
