@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <div className="flex items-center pt-16 pb-7">
       <Image
-        src="/elijah_dr.jpeg"
+        src="/elijahdr_ai.jpg"
         alt="elijahdr"
         className="rounded-full"
         height={100}
