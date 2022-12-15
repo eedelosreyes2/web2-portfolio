@@ -3,7 +3,7 @@ import { education } from '../clientData/education.json';
 export default function Education() {
   const { school, degree, date, courses, url } = education;
   return (
-    <div>
+    <div className="pb-16">
       <div className="font-bold pb-5">Education</div>
       <div className="flex justify-between items-center pb-1">
         <div // a
