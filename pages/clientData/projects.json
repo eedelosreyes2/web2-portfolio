@@ -4,7 +4,7 @@
       "id": 6,
       "title": "Underground Universal",
       "dates": "Sep 2022",
-      "description": "Website for Underground Universal: The Hip-Hop label that works for the artist. It's your music, your art. We take 0% of your royalties. At the heart of Underground Universal is a record label that puts the artist first.",
+      "description": "Designed and developed a dynamic website for Underground Universal, a groundbreaking hip-hop label dedicated to empowering artists with full royalty control. Leveraging cutting-edge technology, the platform underscores the commitment to nurturing creative autonomy and fostering artists' success.",
       "skills": ["Typescript", "Next", "Tailwind", "Figma"],
       "url": "https://www.undergrounduniversal.com/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
@@ -14,7 +14,7 @@
       "id": 1,
       "title": "Diffusion Board Creator",
       "dates": "May - Aug 2021",
-      "description": "Built a web app where you can curate and personalize your favorite content on the internet. Using our Chrome extension or by manually adding a url, you can organize blog posts, tweets, youtube videos, etc. into boards and share them with your friends.",
+      "description": "Created an innovative web application enabling users to curate and personalize their preferred online content, offering the convenience of utilizing a Chrome extension or manually adding URLs to meticulously organize blog posts, tweets, YouTube videos, and more into custom boards, fostering seamless sharing with friends.",
       "skills": [
         "Javascript",
         "React",
@@ -29,7 +29,7 @@
       "id": 0,
       "title": "Twitter React App",
       "dates": "July - Sep 2020",
-      "description": "Created a replica of Twitter web app using React.js. My app provides basic post, like, and retweet functionality and a rich, interactive, and well-performing user interface which looks identical to Twitter. It is also optimized for all devices, try them all out!",
+      "description": "Engineered a high-fidelity replica of the Twitter web application using React.js, featuring essential post, like, and retweet functionalities within a visually identical and responsive user interface, designed for optimal performance across a wide range of devices.",
       "skills": ["Javascript", "React", "JSX", "Bootstrap"],
       "url": "https://twitter-react-eli.vercel.app",
       "github_url": "https://github.com/eedelosreyes2/twitter-react"
@@ -40,7 +40,7 @@
       "id": 5,
       "title": "Whac-a-NFT",
       "dates": "July 2022",
-      "description": "Integrate your NFTs into a play-to-earn Whac-a-Mole-like blockchain game and view the on-chain scores of other players!",
+      "description": "Seamlessly integrated NFTs into an engaging, play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
       "skills": ["Moralis Solana", "Typescript", "Next", "Tailwind"],
       "url": "https://whac-a-nft.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/whac-a-nft"
@@ -49,7 +49,7 @@
       "id": 4,
       "title": "Solana Wallet Tracker",
       "dates": "June 2022",
-      "description": "View the balances and nfts from a Solana wallet. Created to learn basic Solana dev.",
+      "description": "Developed a Solana wallet analysis tool enabling users to effortlessly track both token balances and NFT holdings, serving as a valuable learning project in the realm of Solana development.",
       "skills": [
         "Solana Web3",
         "JSON RPC",
@@ -65,7 +65,7 @@
       "id": 3,
       "title": "Solana Pay Store",
       "dates": "June 2022",
-      "description": "Set up a store that integrates Solana Pay so you can buy products with SPL tokens. Built on buildspace.",
+      "description": "Established an innovative e-commerce platform seamlessly integrated with Solana Pay, empowering users to make purchases using SPL tokens, all built using cutting-edge technology. Inspired from the Buildspace community.",
       "skills": [
         "Solana Pay",
         "Solana Wallet Adapter",
@@ -80,7 +80,7 @@
       "id": 2,
       "title": "Web3 Discovery",
       "dates": "Apr - May 2022",
-      "description": "Created a web3 discovery web app where you will find companies and platforms in the ecosystem. Filter, search, and view entries from our collection by blockchain or type of company.",
+      "description": "Developed a pioneering web3 discovery application facilitating effortless exploration of blockchain companies and platforms, offering dynamic filtering, search, and detailed insights into our extensive ecosystem database.",
       "skills": [
         "Typescript",
         "Next",

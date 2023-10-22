@@ -7,6 +7,7 @@
     "Vue",
     "Tailwind",
     "Bootstrap",
+    "Stencil",
     "HTML/CSS",
     "JSX",
     "Node",
@@ -23,7 +24,6 @@
     "Drupal",
     "PHP",
     "Java",
-    "Python",
-    "Rust"
+    "Python"
   ]
 }
