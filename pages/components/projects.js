@@ -50,27 +50,9 @@ export default function Projects() {
     );
   };
 
-  // {
-  //   "id": 7,
-  //   "title": "The Underground Universal App",
-  //   "dates": "Sep 2022",
-  //   "description": "Discover fellow underground hip hop talent and collaborate with them on a project you're passionate about while getting all the support you need as a rising artist.",
-  //   "skills": [
-  //     "PostgreSQL",
-  //     "GraphQL",
-  //     "Prisma",
-  //     "AWS S3",
-  //     "Typescript",
-  //     "Next",
-  //     "Tailwind",
-  //     "Figma"
-  //   ],
-  //   "url": "https://underground-universal-01.vercel.app/",
-  //   "github_url": "https://github.com/eedelosreyes2/underground-universal-0.1"
-  // },
   return (
     <>
-      <div className="font-bold pb-5">Projects</div>
+      <div className="font-bold pb-5 text-lg">Projects</div>
       {projects.map(
         ({ id, title, dates, description, skills, url, github_url }) => (
           <div key={id} className="pb-20">
@@ -102,7 +84,7 @@ export default function Projects() {
       )}
 
       <Divider />
-      <div className="font-bold pb-5">Web3 Projects</div>
+      <div className="font-bold pb-5 text-lg">Web3 Projects</div>
       {web3Projects.map(
         ({ id, title, dates, description, skills, url, github_url }) => (
           <div key={id} className="pb-20">
