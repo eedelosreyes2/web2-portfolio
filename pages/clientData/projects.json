@@ -5,11 +5,22 @@
       "title": "Underground Universal",
       "dates": "Sep 2022",
       "description": "Designed and developed a dynamic website for Underground Universal, a fresh hip-hop label dedicated to empowering artists with full royalty control. With multiple functions including artist discovery, sharing, and collaborating, the platform underscores the commitment to nurturing creative autonomy and achieving artists' success with comprehensive services.",
-      "skills": ["Typescript", "Next", "Tailwind", "Figma"],
+      "skills": [
+        "Typescript",
+        "Next",
+        "Tailwind",
+        "Graphql",
+        "Postgres",
+        "Apollo",
+        "Prisma",
+        "Heroku",
+        "Auth0",
+        "AWS",
+        "Figma"
+      ],
       "url": "https://www.undergrounduniversal.com/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
     },
-
     {
       "id": 1,
       "title": "Diffusion Board Creator",
@@ -20,7 +31,8 @@
         "React",
         "Styled-Components",
         "Firebase",
-        "Google Cloud"
+        "Google Cloud",
+        "Figma"
       ],
       "url": "https://diffusion-pinboard-creator-mvp.vercel.app",
       "github_url": "https://github.com/eedelosreyes2/diffusion-pinboard-creator-mvp"

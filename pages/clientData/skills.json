@@ -15,10 +15,13 @@
     "Git",
     "REST",
     "Graphql",
-    "MongoDB",
     "Postgres",
+    "Apollo",
+    "MongoDB",
     "Prisma",
     "Heroku",
+    "Auth0",
+    "AWS",
     "Firebase",
     "Google Cloud",
     "Postman",
@@ -26,6 +29,6 @@
     "PHP",
     "Java",
     "Python",
-    "UX/UI Design"
+    "Figma"
   ]
 }
