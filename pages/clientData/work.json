@@ -14,7 +14,7 @@
       "company": "Boonoob",
       "title": "Full Stack Engineer",
       "dates": "Jun - Nov 2020",
-      "description": "Designed and implemented a comprehensive suite of RESTful web API endpoints in Node to proficiently manage a variety of HTTP requests. Collaborated closely with the production team to conceptualize and execute user-friendly features, resulting in a significant boost in user engagement and acquisition.",
+      "description": "Designed and implemented a comprehensive suite of RESTful web API endpoints in Node to proficiently manage a variety of HTTP requests. Simultaneously collaborated with the production team to conceptualize and execute user-friendly features, resulting in a significant boost in user engagement and acquisition.",
       "skills": [
         "Javascript",
         "Node",
@@ -31,7 +31,7 @@
       "company": "Fanmire",
       "title": "Full Stack Engineer",
       "dates": "Jun - May 2020",
-      "description": "Engineered a cutting-edge website showcasing a robust social media aggregation system, seamlessly collating user content from Twitter, Facebook, and Instagram, storing and presenting it in a sleek and unified newsfeed. Spearheaded the development of the server, database collection, and client interface, leveraging technologies such as Node, Vue, Express, Axios, and HTML/CSS to achieve this innovative solution.",
+      "description": "Engineered a website showcasing a social media aggregation system, seamlessly collecting user content from Twitter, Facebook, and Instagram, storing and presenting it in a sleek and unified newsfeed. Took initiative on the development of the server, database collection, and client interface, leveraging technologies such as Node, Vue, Express, Axios, and HTML/CSS to achieve this innovative solution.",
       "skills": [
         "Javascript",
         "Node",
@@ -50,7 +50,7 @@
       "company": "Thinq.tv",
       "title": "Frontend Engineer Intern",
       "dates": "May - Aug 2019",
-      "description": "Collaborated seamlessly with the front-end team to craft a sophisticated and user-centric interface, taking a hands-on approach to coding the front-end while also actively contributing to enhancing the back-end website's performance in close coordination with the development team.",
+      "description": "Collaborated with the frontend team to craft an elegant and user-centric interface, taking a hands-on approach to coding the frontend while also actively contributing to enhancing the backend website's performance in close coordination with the development team.",
       "skills": [
         "Javascript",
         "HTML/CSS",
