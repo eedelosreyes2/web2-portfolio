@@ -4,6 +4,7 @@ import Projects from './components/projects';
 import Work from './components/work';
 import Education from './components/education';
 import Skills from './components/skills';
+import Hobbies from './components/hobbies';
 import Contact from './components/contact';
 import Divider from './components/divider';
 
@@ -28,6 +29,8 @@ export default function Home() {
         <Education />
         <Divider />
         <Skills />
+        <Divider />
+        <Hobbies />
         <Divider />
       </div>
       {/* <div className="bg-violet-600 h-2"></div> */}
