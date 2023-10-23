@@ -31,7 +31,7 @@
       "company": "Fanmire",
       "title": "Full Stack Engineer",
       "dates": "Jun - May 2020",
-      "description": "Engineered a website showcasing a social media aggregation system, seamlessly collecting user content from Twitter, Facebook, and Instagram, storing and presenting it in a sleek and unified newsfeed. Took initiative on the development of the server, database collection, and client interface, leveraging technologies such as Node, Vue, Express, Axios, and HTML/CSS to achieve this innovative solution.",
+      "description": "Engineered a website showcasing a social media aggregation system, collecting user content from Twitter, Facebook, and Instagram, and presenting it in an elegant newsfeed. Took initiative on the design, development of the user interface, and server including database collection.",
       "skills": [
         "Javascript",
         "Node",
@@ -50,7 +50,7 @@
       "company": "Thinq.tv",
       "title": "Frontend Engineer Intern",
       "dates": "May - Aug 2019",
-      "description": "Collaborated with the frontend team to craft an elegant and user-centric interface, taking a hands-on approach to coding the frontend while also actively contributing to enhancing the backend website's performance in close coordination with the development team.",
+      "description": "Collaborated with the frontend team to craft an elegant and user-centric interface, delivered code for the site, while also actively contributing to enhancing the backend website's performance in close coordination with the entire development team.",
       "skills": [
         "Javascript",
         "HTML/CSS",
