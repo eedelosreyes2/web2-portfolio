@@ -64,7 +64,9 @@ export default function Projects() {
                 {/* <div className="text-sm">{dates}</div> */}
               </div>
             </div>
-            <div className="mb-2">{description}</div>
+            {description.split(".").map((item) => item && (
+              <div className="mb-2">{item}.</div>
+            ))}
             <div className="flex flex-wrap mb-3">
               {skills.map((skill) => (
                 <div

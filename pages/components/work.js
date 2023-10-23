@@ -21,7 +21,9 @@ export default function Work() {
             </div>
             <div className="font-bold text-cyan-500 text-2xl">{title}</div>
           </div>
-          <div className="mb-2">{description}</div>
+          {description.split(".").map((item) => item && (
+              <div className="mb-2">{item}.</div>
+            ))}
           <div className="flex flex-wrap">
             {skills.map((skill) => (
               <div

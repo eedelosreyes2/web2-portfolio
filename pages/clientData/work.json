@@ -5,7 +5,7 @@
       "company": "Robert Half",
       "title": "Full Stack Engineer II",
       "dates": "Nov 2020 - Present",
-      "description": "Built and maintained 20 websites across the world through collaboration within the development team. Improved customer experience by launching new features and fixing current issues.",
+      "description": "Collaborated closely in the construction and maintenance of 20 global websites that generate millions of traffic, fostering synergy among 5+ different teams. Improved customer experience by consistently launching 5-10 new features and fixes to current issues every two weeks in a rapid agile environment. Took a leading role in a new and critical project, delivering over 100 high-performance web components and taking ownership of their distribution through bi-weekly releases to multiple development teams. Proficiently managed high-priority tickets in tandem with concurrent assignments, consistently delivering efficient and top-quality solutions. Served as an indispensable right-hand to the architect and senior developer, ensuring swift and effective responses to intricate challenges. Mentored and guided fellow team members, conducting multiple code reviews simultaneously, and consistently extended support and assistance to colleagues in need.",
       "skills": ["Javascript", "Drupal", "PHP", "Java", "React", "Fullstack"],
       "url": "https://roberthalf.com/"
     },
@@ -14,7 +14,7 @@
       "company": "Boonoob",
       "title": "Full Stack Engineer",
       "dates": "Jun - Nov 2020",
-      "description": "Designed and implemented a comprehensive suite of RESTful web API endpoints in Node.js to proficiently manage a variety of HTTP requests. Collaborated closely with the production team to conceptualize and execute user-friendly features, resulting in a significant boost in user engagement and acquisition.",
+      "description": "Designed and implemented a comprehensive suite of RESTful web API endpoints in Node to proficiently manage a variety of HTTP requests. Collaborated closely with the production team to conceptualize and execute user-friendly features, resulting in a significant boost in user engagement and acquisition.",
       "skills": [
         "Javascript",
         "Node",
@@ -31,7 +31,7 @@
       "company": "Fanmire",
       "title": "Full Stack Engineer",
       "dates": "Jun - May 2020",
-      "description": "Engineered a cutting-edge website showcasing a robust social media aggregation system, seamlessly collating user content from Twitter, Facebook, and Instagram, storing and presenting it in a sleek and unified newsfeed. Spearheaded the development of the server, database collection, and client interface, leveraging technologies such as Node.js, Vue.js, Express, Axios, and HTML/CSS to achieve this innovative solution.",
+      "description": "Engineered a cutting-edge website showcasing a robust social media aggregation system, seamlessly collating user content from Twitter, Facebook, and Instagram, storing and presenting it in a sleek and unified newsfeed. Spearheaded the development of the server, database collection, and client interface, leveraging technologies such as Node, Vue, Express, Axios, and HTML/CSS to achieve this innovative solution.",
       "skills": [
         "Javascript",
         "Node",

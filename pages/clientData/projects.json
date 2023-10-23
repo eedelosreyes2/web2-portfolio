@@ -4,7 +4,7 @@
       "id": 6,
       "title": "Underground Universal",
       "dates": "Sep 2022",
-      "description": "Designed and developed a dynamic website for Underground Universal, a groundbreaking hip-hop label dedicated to empowering artists with full royalty control. Leveraging cutting-edge technology, the platform underscores the commitment to nurturing creative autonomy and fostering artists' success.",
+      "description": "Designed and developed a dynamic website for Underground Universal, a fresh hip-hop label dedicated to empowering artists with full royalty control. With multiple functions including artist discovery, sharing, and collaborating, the platform underscores the commitment to nurturing creative autonomy and achieving artists' success.",
       "skills": ["Typescript", "Next", "Tailwind", "Figma"],
       "url": "https://www.undergrounduniversal.com/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
@@ -14,7 +14,7 @@
       "id": 1,
       "title": "Diffusion Board Creator",
       "dates": "May - Aug 2021",
-      "description": "Created an innovative web application enabling users to curate and personalize their preferred online content, offering the convenience of utilizing a Chrome extension or manually adding URLs to meticulously organize blog posts, tweets, YouTube videos, and more into custom boards, fostering seamless sharing with friends.",
+      "description": "Created an innovative web application enabling users to curate and personalize their preferred online content, offering the convenience of utilizing a Chrome extension or manually adding URLs to organize blog posts, tweets, YouTube videos, and more into custom boards, engaging seamless sharing with friends.",
       "skills": [
         "Javascript",
         "React",
@@ -29,7 +29,7 @@
       "id": 0,
       "title": "Twitter React App",
       "dates": "July - Sep 2020",
-      "description": "Engineered a high-fidelity replica of the Twitter web application using React.js, featuring essential post, like, and retweet functionalities within a visually identical and responsive user interface, designed for optimal performance across a wide range of devices.",
+      "description": "Engineered a replica of the Twitter web app using React, featuring essential post, like, and retweet functionalities within a visually identical and responsive user interface, designed for optimal performance across all devices.",
       "skills": ["Javascript", "React", "JSX", "Bootstrap"],
       "url": "https://twitter-react-eli.vercel.app",
       "github_url": "https://github.com/eedelosreyes2/twitter-react"
@@ -65,7 +65,7 @@
       "id": 3,
       "title": "Solana Pay Store",
       "dates": "June 2022",
-      "description": "Established an innovative e-commerce platform seamlessly integrated with Solana Pay, empowering users to make purchases using SPL tokens, all built using cutting-edge technology. Inspired from the Buildspace community.",
+      "description": "Established an e-commerce platform seamlessly integrated with Solana Pay, empowering users to make purchases using SPL tokens. Inspired from the Buildspace community.",
       "skills": [
         "Solana Pay",
         "Solana Wallet Adapter",
@@ -80,7 +80,7 @@
       "id": 2,
       "title": "Web3 Discovery",
       "dates": "Apr - May 2022",
-      "description": "Developed a pioneering web3 discovery application facilitating effortless exploration of blockchain companies and platforms, offering dynamic filtering, search, and detailed insights into our extensive ecosystem database.",
+      "description": "Developed a Web3 discovery application facilitating effortless exploration of 50+ blockchain companies and platforms, offering dynamic filtering, search, and detailed insights into our database.",
       "skills": [
         "Typescript",
         "Next",
