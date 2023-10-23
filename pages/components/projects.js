@@ -63,11 +63,11 @@ export default function Projects() {
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
-                <div className="text-sm">{dates}</div>
+                <div className="text-slate-100 text-sm">{dates}</div>
               </div>
             </div>
             {description.split(".").map((item) => item && (
-              <div className="mb-2">{item}.</div>
+              <div className="text-slate-300 mb-2">{item}.</div>
             ))}
             <div className="flex flex-wrap mb-3">
               {skills.map((skill) => (
@@ -97,10 +97,10 @@ export default function Projects() {
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
-                <div className="text-sm">{dates}</div>
+                <div className="text-slate-100 text-sm ">{dates}</div>
               </div>
             </div>
-            <div className="mb-2">{description}</div>
+            <div className="text-slate-300 mb-2">{description}</div>
             <div className="flex flex-wrap mb-3">
               {skills.map((skill) => (
                 <div

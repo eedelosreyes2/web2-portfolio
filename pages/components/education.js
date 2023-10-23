@@ -14,7 +14,7 @@ export default function Education() {
         >
           {school}
         </div>
-        <div className="text-sm">{date}</div>
+        <div className="text-sm text-slate-200">{date}</div>
       </div>
       <div className="font-bold text-cyan-500 text-2xl pb-2">{degree}</div>
       <div className="flex flex-wrap">

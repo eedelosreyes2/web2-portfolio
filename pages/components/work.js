@@ -17,12 +17,12 @@ export default function Work() {
               >
                 {company}
               </div>
-              <div className="text-sm">{dates}</div>
+              <div className="text-slate-100 text-sm">{dates}</div>
             </div>
             <div className="font-bold text-cyan-500 text-2xl">{title}</div>
           </div>
           {description.split(".").map((item) => item && (
-              <div className="mb-2">{item}.</div>
+              <div className="text-slate-300 mb-2">{item}.</div>
             ))}
           <div className="flex flex-wrap">
             {skills.map((skill) => (
