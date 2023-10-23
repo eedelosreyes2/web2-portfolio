@@ -6,6 +6,8 @@ import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 
 export default function Projects() {
   const renderButton = (id, url, github_url) => {
+    if (!url && !github_url) return
+
     const colorClass = url
       ? 'bg-gradient-to-br from-green-400 to-lime-600 rounded-full p-2 px-4 flex items-center'
       : 'bg-gradient-to-br from-green-400 to-indigo-500 rounded-full p-2 px-4 flex items-center';
@@ -61,7 +63,7 @@ export default function Projects() {
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
-                {/* <div className="text-sm">{dates}</div> */}
+                <div className="text-sm">{dates}</div>
               </div>
             </div>
             {description.split(".").map((item) => item && (
@@ -95,7 +97,7 @@ export default function Projects() {
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
-                {/* <div className="text-sm">{dates}</div> */}
+                <div className="text-sm">{dates}</div>
               </div>
             </div>
             <div className="mb-2">{description}</div>
