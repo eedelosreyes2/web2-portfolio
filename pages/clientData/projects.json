@@ -4,7 +4,7 @@
       "id": 6,
       "title": "Underground Universal",
       "dates": "Oct - Feb 2022",
-      "description": "Designed and developed a dynamic website for Underground Universal, a fresh hip-hop label dedicated to empowering artists with full royalty control. With multiple functions including artist discovery, sharing, and collaborating, the platform underscores the commitment to nurturing creative autonomy and achieving artists' success with comprehensive services.",
+      "description": "Designed and developed a dynamic website for Underground Universal, a fresh hip-hop label dedicated to empowering artists with full royalty control while providing multiple functions including artist discovery, sharing, and collaboration.",
       "skills": [
         "Typescript",
         "Next",
@@ -25,7 +25,7 @@
       "id": 1,
       "title": "Diffusion Board Creator",
       "dates": "May - Aug 2021",
-      "description": "Created an innovative web application enabling users to curate and personalize their preferred online content, offering the convenience of utilizing a Chrome extension or manually adding URLs to organize blog posts, tweets, YouTube videos, and more into custom boards, engaging seamless sharing with friends.",
+      "description": "Created a web application enabling users to curate and personalize their preferred online content, offering the convenience of utilizing a Chrome extension or manually adding URLs to organize blog posts, tweets, YouTube videos, and more into custom boards, engaging seamless sharing with friends.",
       "skills": [
         "Javascript",
         "React",
@@ -68,7 +68,7 @@
       "id": 5,
       "title": "Whac-a-NFT",
       "dates": "July 2022",
-      "description": "Seamlessly integrated NFTs into an engaging, play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
+      "description": "Seamlessly integrated NFTs into an play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
       "skills": ["Moralis Solana", "Typescript", "Next", "Tailwind"],
       "url": "https://whac-a-nft.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/whac-a-nft"
@@ -77,7 +77,7 @@
       "id": 4,
       "title": "Solana Wallet Tracker",
       "dates": "June 2022",
-      "description": "Developed a Solana wallet analysis tool enabling users to effortlessly track both token balances and NFT holdings, serving as a valuable learning project in the realm of Solana development.",
+      "description": "Developed a Solana wallet analysis tool enabling users to effortlessly track both token balances and NFT holdings, serving as a learning project in the realm of Solana development.",
       "skills": [
         "Solana Web3",
         "JSON RPC",
