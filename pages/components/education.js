@@ -16,7 +16,7 @@ export default function Education() {
         </div>
         <div className="text-sm text-slate-200">{date}</div>
       </div>
-      <div className="font-bold text-cyan-500 text-2xl pb-2">{degree}</div>
+      <div className="font-bold text-cyan-500 text-3xl pb-2">{degree}</div>
       <div className="flex flex-wrap">
         {courses.map((skill) => (
           <div key={skill} className="font-bold text-violet-600 pr-3">
