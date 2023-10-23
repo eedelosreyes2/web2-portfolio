@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import { Helmet } from 'react-helmet';
 import Intro from './components/intro';
 import Projects from './components/projects';
 import Work from './components/work';
@@ -11,11 +11,19 @@ import Divider from './components/divider';
 export default function Home() {
   return (
     <div className="bg-slate-900 text-white w-full overflow-hidden">
-      <Head>
+      <Helmet>
         <title>Elijah Delos Reyes</title>
         <meta name="description" content="Elijah Delos Reyes Online Website Portfolio Resume Fullstack Engineer" />
+        <meta name="image" content="https://elijahdr.vercel.app/elijahdr-circle.png" />
+
+        <meta property="og:title" content="Elijah Delos Reyes" />
+        <meta property="og:description" content="Elijah Delos Reyes Online Website Portfolio Resume Fullstack Engineer" />
+        <meta property="og:image" content="https://elijahdr.vercel.app/elijahdr-circle.png"/>
+        <meta property="og:url" content="https://elijahdr.vercel.app/" />
+        <meta property="og:type" content="website" />
+        
         <link rel="icon" href="/elijahdr-circle.png" />
-      </Head>
+      </Helmet>
 
       {/* <div className="bg-cyan-500 h-2"></div> */}
       <div className="mx-auto max-w-xl px-5 sm:px-10 pb-24">
