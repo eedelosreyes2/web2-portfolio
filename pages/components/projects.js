@@ -63,7 +63,7 @@ export default function Projects() {
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
-                <div className="text-slate-100 text-sm">{dates}</div>
+                {/* <div className="text-slate-100 text-sm">{dates}</div> */}
               </div>
             </div>
             {description.split(".").map((item) => item && (
@@ -97,7 +97,7 @@ export default function Projects() {
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
-                <div className="text-slate-100 text-sm ">{dates}</div>
+                {/* <div className="text-slate-100 text-sm ">{dates}</div> */}
               </div>
             </div>
             <div className="text-slate-300 mb-2">{description}</div>
