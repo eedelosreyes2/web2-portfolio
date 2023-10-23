@@ -21,9 +21,9 @@ export default function Home() {
         <Intro />
         <Contact />
         <Divider />
-        <Projects />
-        <Divider />
         <Work />
+        <Divider />
+        <Projects />
         <Divider />
         <Education />
         <Divider />
