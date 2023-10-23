@@ -73,7 +73,7 @@ export default function Projects() {
               {skills.map((skill) => (
                 <div
                   key={skill}
-                  className="font-bold text-violet-600 text-sm pr-3"
+                  className="font-bold text-violet-600 pr-3"
                 >
                   {skill}
                 </div>
@@ -105,7 +105,7 @@ export default function Projects() {
               {skills.map((skill) => (
                 <div
                   key={skill}
-                  className="font-bold text-violet-600 text-sm pr-3"
+                  className="font-bold text-violet-600 pr-3"
                 >
                   {skill}
                 </div>
