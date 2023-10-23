@@ -6,7 +6,7 @@ export default function Intro() {
       <div>
         <Image
           src="/elijahdr_ai.jpg"
-          alt="elijahdr"
+          alt="Elijah Delos Reyes"
           className="rounded-full"
           height={100}
           width={100}
