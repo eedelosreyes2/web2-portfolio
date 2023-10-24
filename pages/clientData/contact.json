@@ -3,22 +3,26 @@
     {
       "id": 0,
       "platform": "Github",
-      "url": "https://github.com/eedelosreyes2"
+      "url": "https://github.com/eedelosreyes2",
+      "label": "eedelosreyes2"
     },
     {
       "id": 4,
       "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/in/elijah-delos-reyes"
+      "url": "https://www.linkedin.com/in/elijah-delos-reyes",
+      "label": "Elijah Delos Reyes"
     },
     {
       "id": 1,
       "platform": "Twitter",
-      "url": "https://twitter.com/_elijah_d_r"
+      "url": "https://twitter.com/_elijah_d_r",
+      "label": "_elijah_d_r"
     },
     {
       "id": 5,
       "platform": "Email",
-      "url": "mailto:delosreyes.elijah@gmail.com"
+      "url": "mailto:delosreyes.elijah@gmail.com",
+      "label": "delosreyes.elijah@gmail.com"
     }
   ]
 }
