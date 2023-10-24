@@ -15,7 +15,7 @@ export default function Education() {
           className="font-bold text-white"
         >
           <div className='bg-gradient-to-br from-yellow-500 to-green-600 rounded-full p-2 px-4 flex items-center'>
-            University of San Francisco
+            USF
               <IconContext.Provider value={{ size: 20 }}>
                 <a
                   href={url}
