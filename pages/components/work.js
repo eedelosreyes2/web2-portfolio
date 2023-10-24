@@ -95,9 +95,6 @@ export default function Work() {
               </div>
             ))}
           </div>
-          {/* <div className="flex justify-start flex-wrap">
-            {renderButton(id, company, url)}
-          </div> */}
         </div>
       ))}
     </div>

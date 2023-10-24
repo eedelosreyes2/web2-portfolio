@@ -65,9 +65,6 @@ export default function Education() {
           </div>
         ))}
       </div>
-      {/* <div className="flex justify-start flex-wrap">
-        {renderButton(0, url)}
-      </div> */}
     </div>
   );
 }
