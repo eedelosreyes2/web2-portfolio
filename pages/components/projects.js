@@ -59,17 +59,17 @@ export default function Projects() {
         ({ id, title, dates, description, skills, url, github_url }) => (
           <div key={id} className="pb-20">
             <div className="flex-column pb-2">
-              <div className="flex justify-between items-center">
+              <div className="flex flex-col">
+                <div className="text-slate-100 text-sm text-slate-300 pb-2">{dates}</div>
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
-                {/* <div className="text-slate-100 text-sm">{dates}</div> */}
               </div>
             </div>
             {description.split(".").map((item) => item && (
               <div className="text-slate-300 mb-2">{item}.</div>
             ))}
-            <div className="flex flex-wrap mb-3">
+            <div className="flex flex-wrap mb-2">
               {skills.map((skill) => (
                 <div
                   key={skill}
@@ -93,15 +93,15 @@ export default function Projects() {
         ({ id, title, dates, description, skills, url, github_url }) => (
           <div key={id} className="pb-20">
             <div className="flex-column pb-2">
-              <div className="flex justify-between items-center">
+              <div className="flex flex-col">
+                <div className="text-slate-100 text-sm text-slate-300 pb-2">{dates}</div>
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
-                {/* <div className="text-slate-100 text-sm ">{dates}</div> */}
               </div>
             </div>
             <div className="text-slate-300 mb-2">{description}</div>
-            <div className="flex flex-wrap mb-3">
+            <div className="flex flex-wrap mb-2">
               {skills.map((skill) => (
                 <div
                   key={skill}

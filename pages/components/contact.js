@@ -2,7 +2,7 @@ import { contact } from '../clientData/contact.json';
 
 export default function Contact() {
   const renderButton = (id, platform, url) => (
-    <div key={id} className="text-center w-50 mb-3 mr-3">
+    <div key={id} className="text-center w-50 mr-3">
       <a
         href={url}
         target="_blank"
