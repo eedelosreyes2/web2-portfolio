@@ -2,6 +2,7 @@ import { education } from '../clientData/education.json';
 
 import { IconContext } from 'react-icons';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FaLink } from 'react-icons/fa';
 
 export default function Education() {
   const { school, degree, date, courses, url } = education;
@@ -42,7 +43,17 @@ export default function Education() {
           rel="noopener noreferrer"
           className="flex items-center font-bold pr-2"
         >
-          {school}
+          <IconContext.Provider value={{ size: 12 }}>
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center font-bold gap-1"
+            >
+            {school}
+              <FaLink />
+            </a>
+          </IconContext.Provider>
         </div>
         <div className="text-sm text-slate-200">{date}</div>
       </div>
@@ -54,9 +65,9 @@ export default function Education() {
           </div>
         ))}
       </div>
-      <div className="flex justify-start flex-wrap">
+      {/* <div className="flex justify-start flex-wrap">
         {renderButton(0, url)}
-      </div>
+      </div> */}
     </div>
   );
 }
