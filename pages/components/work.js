@@ -4,7 +4,27 @@ import { IconContext } from 'react-icons';
 import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 
 export default function Work() {
-  const renderButton = (id, company, url, gradient) => {
+  const renderButton = (id, company, url) => {
+    let containerClass = "rounded-full p-2 px-4 flex items-center "
+    
+    switch (company) {
+      case "Robert Half":
+        containerClass += "bg-gradient-to-br from-red-600 to-red-900"
+        break;
+      case "Boonoob":
+        containerClass += "bg-gradient-to-br from-indigo-600 to-indigo-500"
+        break;
+      case "Fanmire":
+        containerClass += "bg-gradient-to-br from-red-600 to-orange-600"
+        break;
+      case "Thinq.tv":
+        containerClass += "bg-gradient-to-br from-pink-900 to-pink-600"
+        break;
+    
+      default:
+        break;
+    }
+
     return (
       <div key={id} className="text-center mt-3 mr-3">
         <a
@@ -13,7 +33,7 @@ export default function Work() {
           rel="noopener noreferrer"
           className="font-bold text-white"
         >
-          <div className= {gradient + ' bg-gradient-to-br rounded-full p-2 px-4 flex items-center'}>
+          <div className={containerClass}>
             {company}
               <IconContext.Provider value={{ size: 20 }}>
                 <a
@@ -34,7 +54,7 @@ export default function Work() {
   return (
     <div>
       <div className="font-bold pb-5 text-lg">Work Experience</div>
-      {jobs.map(({ id, company, title, dates, description, skills, url, gradient }) => (
+      {jobs.map(({ id, company, title, dates, description, skills, url }) => (
         <div key={id} className="pb-20">
           <div className="flex-column pb-2">
             <div className="flex flex-col pb-2">
@@ -76,7 +96,7 @@ export default function Work() {
             ))}
           </div>
           <div className="flex justify-start flex-wrap">
-            {renderButton(id, company, url, gradient)}
+            {renderButton(id, company, url)}
           </div>
         </div>
       ))}

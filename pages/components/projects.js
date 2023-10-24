@@ -2,7 +2,6 @@ import { projects, web3Projects } from '../clientData/projects.json';
 import Divider from './divider';
 import { IconContext } from 'react-icons';
 import { FaGithub } from 'react-icons/fa';
-import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 import { FaPlay } from 'react-icons/fa';
 
 export default function Projects() {
