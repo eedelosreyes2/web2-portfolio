@@ -15,7 +15,8 @@
         "Drupal",
         "PHP"
       ],
-      "url": "https://roberthalf.com/"
+      "url": "https://roberthalf.com/",
+      "gradient": "from-red-600 to-red-900"
     },
     {
       "id": 1,
@@ -32,7 +33,8 @@
         "Postman",
         "UX/UI Design"
       ],
-      "url": "https://boonoob.com/"
+      "url": "https://boonoob.com/",
+      "gradient": "from-indigo-600 to-indigo-500"
     },
     {
       "id": 2,
@@ -50,7 +52,8 @@
         "Postman",
         "UX/UI Design"
       ],
-      "url": "https://fanmire.com/"
+      "url": "https://fanmire.com/",
+      "gradient": "from-red-600 to-orange-600"
     },
     {
       "id": 3,
@@ -59,7 +62,8 @@
       "dates": "May - Aug 2019",
       "description": "Collaborated with the frontend team to craft an elegant and user-centric interface, delivered code for the site, while also actively contributing to enhancing the backend website's performance in close coordination with the entire development team.",
       "skills": ["Javascript", "HTML/CSS", "Heroku", "UX/UI Design"],
-      "url": "https://www.linkedin.com/company/thinqtv/"
+      "url": "https://www.linkedin.com/company/thinqtv/",
+      "gradient": "from-pink-900 to-pink-600"
     }
   ]
 }

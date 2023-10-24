@@ -3,6 +3,7 @@ import Divider from './divider';
 import { IconContext } from 'react-icons';
 import { FaGithub } from 'react-icons/fa';
 import { FaExternalLinkSquareAlt } from 'react-icons/fa';
+import { FaPlay } from 'react-icons/fa';
 
 export default function Projects() {
   const renderButton = (id, url, github_url) => {
@@ -21,16 +22,16 @@ export default function Projects() {
           className="font-bold text-white"
         >
           <div className={colorClass}>
-            {url ? 'Launch' : 'Code'}
+            {url ? 'Live Demo' : 'Code'}
             {url && (
-              <IconContext.Provider value={{ size: 20 }}>
+              <IconContext.Provider value={{ size: 15 }}>
                 <a
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="pl-2"
                 >
-                  <FaExternalLinkSquareAlt />
+                  <FaPlay />
                 </a>
               </IconContext.Provider>
             )}

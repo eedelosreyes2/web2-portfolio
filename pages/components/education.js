@@ -1,7 +1,7 @@
 import { education } from '../clientData/education.json';
 
 import { IconContext } from 'react-icons';
-import { FaExternalLinkSquareAlt } from 'react-icons/fa';
+import { IoSchool } from 'react-icons/io5';
 
 export default function Education() {
   const { school, degree, date, courses, url } = education;
@@ -14,8 +14,8 @@ export default function Education() {
           rel="noopener noreferrer"
           className="font-bold text-white"
         >
-          <div className='bg-gradient-to-br from-indigo-600 to-indigo-500 rounded-full p-2 px-4 flex items-center'>
-            {!url.includes("linkedin") ? 'Website' : 'LinkedIn'}
+          <div className='bg-gradient-to-br from-yellow-500 to-green-600 rounded-full p-2 px-4 flex items-center'>
+            University of San Francisco
               <IconContext.Provider value={{ size: 20 }}>
                 <a
                   href={url}
@@ -23,7 +23,7 @@ export default function Education() {
                   rel="noopener noreferrer"
                   className="pl-2"
                 >
-                  <FaExternalLinkSquareAlt />
+                  <IoSchool />
                 </a>
               </IconContext.Provider>
           </div>
