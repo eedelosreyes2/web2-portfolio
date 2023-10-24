@@ -1,7 +1,7 @@
 import { jobs } from '../clientData/work.json';
 
 import { IconContext } from 'react-icons';
-import { FaExternalLinkSquareAlt } from 'react-icons/fa';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function Work() {
   const renderButton = (id, company, url) => {
@@ -35,14 +35,14 @@ export default function Work() {
         >
           <div className={containerClass}>
             {company}
-              <IconContext.Provider value={{ size: 20 }}>
+              <IconContext.Provider value={{ size: 16 }}>
                 <a
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="pl-2"
                 >
-                  <FaExternalLinkSquareAlt />
+                  <FaExternalLinkAlt />
                 </a>
               </IconContext.Provider>
           </div>
@@ -74,7 +74,7 @@ export default function Work() {
                   className="flex items-center font-bold gap-2"
                 >
                 {company}
-                  <FaExternalLinkSquareAlt />
+                  <FaExternalLinkAlt />
                 </a>
               </IconContext.Provider> */}
               </div>
