@@ -6,32 +6,6 @@ import { FaLink } from 'react-icons/fa';
 
 export default function Education() {
   const { school, degree, date, courses, url } = education;
-  const renderButton = (id, url) => {
-    return (
-      <div key={id} className="text-center mt-3 mr-3">
-        <a
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-bold text-white"
-        >
-          <div className='bg-gradient-to-br from-yellow-500 to-green-600 rounded-full p-2 px-4 flex items-center'>
-            University of San Francisco
-              <IconContext.Provider value={{ size: 16 }}>
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="pl-2"
-                >
-                  <FaExternalLinkAlt />
-                </a>
-              </IconContext.Provider>
-          </div>
-        </a>
-      </div>
-    );
-  };
 
   return (
     <div className="pb-16">
@@ -48,7 +22,7 @@ export default function Education() {
               href={url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center font-bold gap-1"
+              className="flex items-center font-bold gap-1 hover:underline"
             >
             {school}
               <FaLink />

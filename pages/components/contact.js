@@ -32,7 +32,7 @@ export default function Contact() {
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex gap-2 items-center font-bold "
+                    className="flex gap-2 items-center font-bold hover:underline"
                   >
                     {renderIcon(platform)} {label}
                   </a>

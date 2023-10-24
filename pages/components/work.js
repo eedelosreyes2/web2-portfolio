@@ -23,7 +23,7 @@ export default function Work() {
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center font-bold gap-2"
+                    className="flex items-center font-bold gap-2 hover:underline"
                   >
                       {company}
                     <FaLink />
