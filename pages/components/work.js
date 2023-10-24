@@ -1,7 +1,7 @@
-import { jobs } from '../clientData/work.json';
+import { jobs } from "../clientData/work.json";
 
-import { IconContext } from 'react-icons';
-import { FaLink } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+import { BiLinkExternal } from "react-icons/bi";
 
 export default function Work() {
   return (
@@ -18,31 +18,31 @@ export default function Work() {
                 rel="noopener noreferrer"
                 className="flex items-center font-bold pr-2"
               >
-                <IconContext.Provider value={{ size: 12 }}>
+                <IconContext.Provider value={{ size: 16 }}>
                   <a
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center font-bold gap-2 hover:underline"
                   >
-                      {company}
-                    <FaLink />
+                    {company}
+                    <BiLinkExternal />
                   </a>
-              </IconContext.Provider>
-            </div>
-            <div className="text-slate-300 text-sm">{dates}</div>
+                </IconContext.Provider>
+              </div>
+              <div className="text-slate-300 text-sm">{dates}</div>
             </div>
             <div className="font-bold text-cyan-500 text-3xl">{title}</div>
           </div>
-          {description.split(".").map((item) => item && (
-              <div className="text-slate-300 mb-2">{item}.</div>
-            ))}
+          {description
+            .split(".")
+            .map(
+              (item) =>
+                item && <div className="text-slate-200 mb-2">{item}.</div>
+            )}
           <div className="flex flex-wrap mb-2">
             {skills.map((skill) => (
-              <div
-                key={skill}
-                className="font-bold text-violet-600 pr-3"
-              >
+              <div key={skill} className="font-bold text-violet-600 pr-3">
                 {skill}
               </div>
             ))}

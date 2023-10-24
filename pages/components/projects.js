@@ -60,14 +60,14 @@ export default function Projects() {
           <div key={id} className="pb-20">
             <div className="flex-column pb-2">
               <div className="flex flex-col">
-                <div className="text-slate-100 text-sm text-slate-300 pb-2">{dates}</div>
+                <div className="text-sm text-slate-300 pb-2">{dates}</div>
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
               </div>
             </div>
             {description.split(".").map((item) => item && (
-              <div className="text-slate-300 mb-2">{item}.</div>
+              <div className="text-slate-200 mb-2">{item}.</div>
             ))}
             <div className="flex flex-wrap mb-2">
               {skills.map((skill) => (
@@ -94,13 +94,13 @@ export default function Projects() {
           <div key={id} className="pb-20">
             <div className="flex-column pb-2">
               <div className="flex flex-col">
-                <div className="text-slate-100 text-sm text-slate-300 pb-2">{dates}</div>
+                <div className="text-sm text-slate-300 pb-2">{dates}</div>
                 <div className="flex items-end font-bold text-3xl text-cyan-500">
                   {title}
                 </div>
               </div>
             </div>
-            <div className="text-slate-300 mb-2">{description}</div>
+            <div className="text-slate-200 mb-2">{description}</div>
             <div className="flex flex-wrap mb-2">
               {skills.map((skill) => (
                 <div

@@ -24,17 +24,16 @@ export default function Contact() {
     <>
       <div className="">
         <div className="flex">
-          <div className="flex flex-col">
+          <div className="flex gap-4">
             {contact.map(({ id, platform, url, label }) =>
               <div key={id} className='pb-2'>
-                <IconContext.Provider value={{ size: 20 }}>
+                <IconContext.Provider value={{ size: 24 }}>
                   <a
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex gap-2 items-center font-bold hover:underline w-fit"
                   >
-                    {renderIcon(platform)} {label}
+                    {renderIcon(platform)}
                   </a>
                 </IconContext.Provider>
               </div>

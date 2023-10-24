@@ -1,8 +1,7 @@
-import { education } from '../clientData/education.json';
+import { education } from "../clientData/education.json";
 
-import { IconContext } from 'react-icons';
-import { FaExternalLinkAlt } from 'react-icons/fa';
-import { FaLink } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+import { BiLinkExternal } from "react-icons/bi";
 
 export default function Education() {
   const { school, degree, date, courses, url } = education;
@@ -17,19 +16,19 @@ export default function Education() {
           rel="noopener noreferrer"
           className="flex items-center font-bold pr-2"
         >
-          <IconContext.Provider value={{ size: 12 }}>
+          <IconContext.Provider value={{ size: 16 }}>
             <a
               href={url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center font-bold gap-1 hover:underline"
+              className="flex items-center font-bold gap-2 hover:underline"
             >
-            {school}
-              <FaLink />
+              {school}
+              <BiLinkExternal />
             </a>
           </IconContext.Provider>
         </div>
-        <div className="text-sm text-slate-200">{date}</div>
+        <div className="text-sm text-slate-300">{date}</div>
       </div>
       <div className="font-bold text-cyan-500 text-3xl pb-2">{degree}</div>
       <div className="flex flex-wrap mb-2">

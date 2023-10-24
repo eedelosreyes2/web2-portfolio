@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Intro() {
   return (
@@ -13,7 +13,9 @@ export default function Intro() {
         />
       </div>
       <div className="font-bold text-4xl">Elijah Delos Reyes</div>
-      <div className="text-lg text-slate-100">Fullstack Engineer II at Robert Half</div>
+      <div className="text-lg text-slate-200">
+        Fullstack Engineer II at Robert Half
+      </div>
       {/* <div className='text-slate-300'>I work on this this and this</div> */}
     </div>
   );
