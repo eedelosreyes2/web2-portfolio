@@ -4,7 +4,7 @@
       "id": 7,
       "title": "Underground Universal Web App",
       "dates": "Oct - Feb 2023",
-      "description": "Designed and built a dynamic website for a fresh hip-hop label dedicated to empowering artists with full royalty control while providing multiple functions including artist discovery, sharing, and collaboration.",
+      "description": "Designed and built a comprehensive and highly-functional web application for underground musical artists, enabling them to create user-authenticated accounts, manage their profiles, discover, collaborate, and share with fellow artists on a visually captivating interface and user-friendly platform.",
       "skills": [
         "Typescript",
         "Next",
@@ -18,8 +18,8 @@
         "AWS",
         "Figma"
       ],
-      "url": "https://underground-universal-website.vercel.app/",
-      "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
+      "url": "https://underground-universal-01.vercel.app/",
+      "github_url": "https://github.com/eedelosreyes2/underground-universal-0.1"
     },
     {
       "id": 6,
