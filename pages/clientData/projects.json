@@ -1,10 +1,10 @@
 {
   "projects": [
     {
-      "id": 6,
-      "title": "Underground Universal",
-      "dates": "Oct - Feb 2022",
-      "description": "Designed and developed a dynamic website for Underground Universal, a fresh hip-hop label dedicated to empowering artists with full royalty control while providing multiple functions including artist discovery, sharing, and collaboration.",
+      "id": 7,
+      "title": "Underground Universal Web App",
+      "dates": "Oct - Feb 2023",
+      "description": "Designed and built a dynamic website for a fresh hip-hop label dedicated to empowering artists with full royalty control while providing multiple functions including artist discovery, sharing, and collaboration.",
       "skills": [
         "Typescript",
         "Next",
@@ -18,6 +18,15 @@
         "AWS",
         "Figma"
       ],
+      "url": "https://underground-universal-website.vercel.app/",
+      "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
+    },
+    {
+      "id": 6,
+      "title": "Record Label Landing Page",
+      "dates": "Sep - Oct 2022",
+      "description": "Developed the landing page for Underground Universal, a record label dedicated to providing artists complete royalty control while offering a range of services, showcasing a website that is concise and engaging while displaying the record label's dignified values.",
+      "skills": ["Typescript", "Next", "Tailwind"],
       "url": "https://underground-universal-website.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
     },
