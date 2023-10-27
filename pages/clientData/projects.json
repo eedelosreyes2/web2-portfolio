@@ -13,6 +13,7 @@
         "Postgres",
         "Apollo",
         "Prisma",
+        "Supabase",
         "Heroku",
         "Auth0",
         "Figma"
