@@ -48,7 +48,7 @@
     {
       "id": 0,
       "title": "Twitter React App",
-      "dates": "July - Sep 2020",
+      "dates": "Jul - Sep 2020",
       "description": "Engineered a replica of the Twitter web app using React, featuring essential post, like, and retweet functionalities within a visually identical and responsive user interface, designed for optimal performance across all devices.",
       "skills": ["Javascript", "React", "JSX", "Bootstrap"],
       "url": "https://twitter-react-eli.vercel.app",
@@ -75,7 +75,7 @@
     {
       "id": 5,
       "title": "Whac-a-NFT",
-      "dates": "July 2022",
+      "dates": "Jul 2022",
       "description": "Seamlessly integrated NFTs into an play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
       "skills": ["Moralis Solana", "Typescript", "Next", "Tailwind"],
       "url": "https://whac-a-nft.vercel.app/",
@@ -84,7 +84,7 @@
     {
       "id": 4,
       "title": "Solana Wallet Tracker",
-      "dates": "June 2022",
+      "dates": "Jun 2022",
       "description": "Developed a Solana wallet analysis tool enabling users to effortlessly track both token balances and NFT holdings, serving as a learning project in the realm of Solana development.",
       "skills": [
         "Solana Web3",
@@ -100,7 +100,7 @@
     {
       "id": 3,
       "title": "Solana Pay Store",
-      "dates": "June 2022",
+      "dates": "Jun 2022",
       "description": "Established an e-commerce platform seamlessly integrated with Solana Pay, empowering users to make purchases using SPL tokens. Inspired from the Buildspace community.",
       "skills": [
         "Solana Pay",
