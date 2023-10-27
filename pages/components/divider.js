@@ -1,3 +1,4 @@
-export default function Divider() {
-  return <div className="h-24 sm:h-36"></div>;
+export default function Divider({ variant }) {
+  if (variant === "small") return <div className="h-36"></div>;
+  return <div className="h-64"></div>;
 }

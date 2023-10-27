@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Intro() {
   return (
-    <div className="flex flex-col gap-3 pt-16 pb-5">
+    <div className="flex flex-col gap-3 pb-5">
       <div>
         <Image
           src="/elijahdr_ai.jpg"
