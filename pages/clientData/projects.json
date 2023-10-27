@@ -19,7 +19,8 @@
         "Figma"
       ],
       "url": "https://underground-universal-01.vercel.app/",
-      "github_url": "https://github.com/eedelosreyes2/underground-universal-0.1"
+      "github_url": "https://github.com/eedelosreyes2/underground-universal-0.1",
+      "imgSrc": "UU_Web_App.png"
     },
     {
       "id": 6,
@@ -28,7 +29,8 @@
       "description": "Developed the landing page for Underground Universal, a record label dedicated to providing artists complete royalty control while offering a range of services, showcasing a website that is concise and engaging while displaying the record label's dignified values.",
       "skills": ["Typescript", "Next", "Tailwind"],
       "url": "https://underground-universal-website.vercel.app/",
-      "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
+      "github_url": "https://github.com/eedelosreyes2/underground-universal-website",
+      "imgSrc": "UU_Landing_Page.png"
     },
     {
       "id": 1,

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { projects, web3Projects } from "../clientData/projects.json";
 import Divider from "./divider";
 import { IconContext } from "react-icons";
@@ -56,7 +57,10 @@ export default function Projects() {
     <>
       <div className="font-bold pb-5 text-lg">Projects</div>
       {projects.map(
-        ({ id, title, dates, description, skills, url, github_url }, i) => (
+        (
+          { id, title, dates, description, skills, url, github_url, imgSrc },
+          i
+        ) => (
           <div key={id} className={projects.length > i + 1 ? "pb-20" : ""}>
             <div className="flex-column pb-2">
               <div className="flex flex-col">
@@ -65,6 +69,24 @@ export default function Projects() {
                   {title}
                 </div>
               </div>
+            </div>
+            <div
+              style={{
+                width: "100%",
+                height: "300px",
+                position: "relative",
+                marginBottom: "12px",
+              }}
+            >
+              {/* TODO: Responsive sizing */}
+              <Image
+                src={"/" + imgSrc}
+                alt={title}
+                className="rounded-xl"
+                height={100}
+                width={100}
+                layout="fill"
+              />
             </div>
             {description
               .split(".")
@@ -79,10 +101,10 @@ export default function Projects() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-start flex-wrap">
+            {/* <div className="flex justify-start flex-wrap">
               {renderButton(id, url, null)}
               {renderButton(id, null, github_url)}
-            </div>
+            </div> */}
           </div>
         )
       )}
