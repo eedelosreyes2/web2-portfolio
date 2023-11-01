@@ -16,7 +16,10 @@ export default function Intro() {
       <div className="text-lg text-slate-200">
         Fullstack Engineer II at Robert Half
       </div>
-      {/* <div className='text-slate-300'>I work on this this and this</div> */}
+      <div className="text-slate-300">
+        I enjoy crafting web applications displaying intuitive and
+        user-friendly, yet functional interfaces with attention to detail.
+      </div>
     </div>
   );
 }
