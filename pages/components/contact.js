@@ -1,10 +1,13 @@
 import { contact } from "../clientData/contact.json";
 
 import { IconContext } from "react-icons";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaEnvelope,
+  FaFilePdf,
+} from "react-icons/fa";
 
 export default function Contact() {
   const renderIcon = (platform) => {
@@ -34,6 +37,16 @@ export default function Contact() {
                 </IconContext.Provider>
               </div>
             ))}
+            <IconContext.Provider value={{ size: 24 }}>
+              <a
+                href="/Elijah_Delos_Reyes_Resume.pdf"
+                alt="Elijah Delos Reyes Resume"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFilePdf />
+              </a>
+            </IconContext.Provider>
           </div>
         </div>
       </div>
