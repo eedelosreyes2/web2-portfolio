@@ -41,6 +41,7 @@
         "Styled-Components",
         "Firebase",
         "Google Cloud",
+        "Google Chrome Extension",
         "Figma"
       ],
       "url": "https://diffusion-pinboard-creator-mvp.vercel.app",
