@@ -79,7 +79,7 @@
       "title": "Whac-a-NFT",
       "dates": "Jul 2022",
       "description": "Seamlessly integrated NFTs into an play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
-      "skills": ["Moralis Solana", "Typescript", "Next", "Tailwind"],
+      "skills": ["Typescript", "Next", "Tailwind", "Moralis Solana"],
       "url": "https://whac-a-nft.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/whac-a-nft"
     },
