@@ -26,7 +26,7 @@
       "title": "Record Label Landing Page",
       "dates": "Sep - Oct 2022",
       "description": "Developed the landing page for Underground Universal, a record label dedicated to providing artists complete royalty control while offering a range of services, showcasing a website that is concise and engaging while displaying the record label's dignified values.",
-      "skills": ["Typescript", "Next", "Tailwind"],
+      "skills": ["Typescript", "Next", "Tailwind", "Webflow"],
       "url": "https://underground-universal-website.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
     },
