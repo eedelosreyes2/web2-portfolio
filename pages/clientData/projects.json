@@ -59,7 +59,7 @@
     {
       "id": 7,
       "title": "Pizza Ordering App",
-      "dates": "May - Jun 2019",
+      "dates": "Jun - Oct 2017",
       "description": "Explored basic developement through building one of my first personal projects, a Java Swing application for streamlined pizza ordering.",
       "skills": ["Java", "Java Swing"],
       "github_url": "https://github.com/eedelosreyes2/Pizza-Ordering-Application"
@@ -67,7 +67,7 @@
     {
       "id": 8,
       "title": "Don't Get Hit By The Hay",
-      "dates": "May - Jun 2019",
+      "dates": "Dec - Jan 2017",
       "description": "Dove into my first ever personal project and created a platform type game, written in Python, where you try to avoid falling objects.",
       "skills": ["Python", "Pygame"],
       "github_url": "https://github.com/eedelosreyes2/Python-Game"
