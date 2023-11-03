@@ -17,8 +17,8 @@ export default function Intro() {
         Fullstack Engineer II at Robert Half
       </div>
       <div className="text-slate-300">
-        I enjoy crafting web applications displaying intuitive and
-        user-friendly, yet functional interfaces with attention to detail.
+        I enjoy crafting web applications displaying intuitive, user-friendly,
+        and functional interfaces with attention to detail.
       </div>
     </div>
   );
