@@ -10,7 +10,8 @@ import Divider from "./components/divider";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-black via-slate-900 to-black text-white w-full overflow-hidden">
+    // <div className="bg-gradient-to-br from-black via-slate-900 to-black text-white w-full overflow-hidden">
+    <div className="text-white w-full overflow-hidden">
       <Helmet>
         <title>Elijah Delos Reyes</title>
         <meta
