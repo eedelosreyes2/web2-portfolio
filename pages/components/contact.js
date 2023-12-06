@@ -39,7 +39,7 @@ export default function Contact() {
             ))}
             <IconContext.Provider value={{ size: 24 }}>
               <a
-                href="/Elijah_Delos_Reyes_Resume.pdf"
+                href="/Elijah_Delos_Reyes_Full_Stack_Engineer.pdf"
                 alt="Elijah Delos Reyes Resume"
                 target="_blank"
                 rel="noopener noreferrer"
