@@ -23,6 +23,12 @@
       "platform": "Email",
       "url": "mailto:delosreyes.elijah@gmail.com",
       "label": "delosreyes.elijah@gmail.com"
+    },
+    {
+      "id": 6,
+      "platform": "Resume",
+      "url": "https://docs.google.com/document/d/1d4RoqYYNbrwPaepyhaiCJWB0r4oaE36h/edit?usp=sharing&ouid=109616170858905528270&rtpof=true&sd=true",
+      "label": "Resume"
     }
   ]
 }

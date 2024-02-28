@@ -20,6 +20,8 @@ export default function Contact() {
         return <FaTwitter />;
       case "Email":
         return <FaEnvelope />;
+      case "Resume":
+        return <FaFilePdf />;
     }
   };
 
@@ -37,16 +39,6 @@ export default function Contact() {
                 </IconContext.Provider>
               </div>
             ))}
-            <IconContext.Provider value={{ size: 24 }}>
-              <a
-                href="/Elijah_Delos_Reyes_Full_Stack_Engineer.pdf"
-                alt="Elijah Delos Reyes Resume"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaFilePdf />
-              </a>
-            </IconContext.Provider>
           </div>
         </div>
       </div>
