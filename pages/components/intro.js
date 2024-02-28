@@ -14,7 +14,7 @@ export default function Intro() {
       </div>
       <div className="font-bold text-4xl">Elijah Delos Reyes</div>
       <div className="text-lg text-slate-200">
-        Fullstack Engineer II at Robert Half
+        Fullstack Engineer <span className="font-bold text-center font-bold from-cyan-500 to-violet-600 bg-gradient-to-r bg-clip-text text-transparent">open to work</span>
       </div>
       <div className="text-slate-300">
         I enjoy crafting web applications displaying intuitive, user-friendly,
