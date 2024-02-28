@@ -28,6 +28,7 @@
         "Javascript",
         "React",
         "Node",
+        "REST",
         "Express",
         "Stripe",
         "MongoDB",
@@ -43,13 +44,13 @@
       "description": "Led the design and engineering of a web app aggregating social media content from Twitter, Facebook, and Instagram APIs into a dynamic and unified newsfeed, satisfying business requests.",
       "skills": [
         "Javascript",
-        "Node",
         "Vue",
+        "Node",
+        "REST",
         "Express",
         "Axios",
         "MongoDB",
-        "Postman",
-        "UX/UI Design"
+        "Postman"
       ],
       "url": "https://fanmire.com/"
     },
