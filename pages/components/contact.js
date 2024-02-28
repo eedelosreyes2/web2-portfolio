@@ -6,7 +6,7 @@ import {
   FaLinkedin,
   FaTwitter,
   FaEnvelope,
-  FaFilePdf,
+  FaFileAlt,
 } from "react-icons/fa";
 
 export default function Contact() {
@@ -21,7 +21,7 @@ export default function Contact() {
       case "Email":
         return <FaEnvelope />;
       case "Resume":
-        return <FaFilePdf />;
+        return <FaFileAlt />;
     }
   };
 
