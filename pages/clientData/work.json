@@ -5,7 +5,7 @@
       "company": "Robert Half",
       "title": "Full Stack Engineer II",
       "dates": "Nov 2020 - Present",
-      "description": "Contributed to the development and maintenance of 20 global websites achieving a daily average of 500k user visits, collaborated among 5+ different teams via continuous and effective communication, and efficiently handled high-priority tasks in a rapid agile environment. Took a leading role in a pivotal Component Library and total website renovation project delivering 100+ high-performance web components with 250+ variants, allied with the UX, design, and business teams, and seized ownership of its release process and distribution. Expedited significant challenges such as troubleshooting, handling urgent issues, triaging reported bugs, and discussing ideas, voluntarily alleviating daily duties of the Senior Solutions Architect. Mentored fellow team members, conducted simultaneous code reviews, and regularly offered support wherever needed, fostering a collaborative and empowered team workspace.",
+      "description": "Contributing to replatforming and maintaining 20 global websites, resulting in a 25% increase in user engagement in the first 4 months of launch via collaboration with 5+ cross-functional teams. Expertly building a pivotal component library containing 100+ high-performance web components with 250+ variants and taking ownership of its release process. Minimizing production bugs and resolving bottlenecks by leading the research and implementation of processes to improve development and testing cycles. Fostering a collaborative and empowered team workspace by mentoring fellow team members, conducting simultaneous code reviews, and regularly offering support wherever needed.",
       "skills": [
         "Javascript",
         "React",
@@ -23,7 +23,7 @@
       "company": "Boonoob",
       "title": "Full Stack Engineer",
       "dates": "Jun - Nov 2020",
-      "description": "Orchestrated the design and implementation of foundational REST API endpoints asynchronously in Node, instrumental in the company's early stages and gaining initial users. Simultaneously collaborated with the production and business teams to conceptualize and execute user-friendly features, resulting in a significant 20% boost in user acquisition.",
+      "description": "Conceptualized and executed user-friendly features, resulting in a 20% boost in user acquisition through collaboration with the business and production teams. Orchestrated the design and implementation of foundational REST API endpoints asynchronously in Node, instrumental in the company's early stages and gaining initial users.",
       "skills": [
         "Javascript",
         "React",
@@ -41,7 +41,7 @@
       "company": "Fanmire",
       "title": "Full Stack Engineer",
       "dates": "Jan - May 2020",
-      "description": "Led the design and engineering of a web app aggregating social media content from Twitter, Facebook, and Instagram APIs into a dynamic and unified newsfeed, satisfying business requests.",
+      "description": "Led the design and engineering of a web app aggregating social media content from Twitter, Facebook, and Instagram APIs into a dynamic, unified newsfeed, satisfying business requests.",
       "skills": [
         "Javascript",
         "Vue",
@@ -59,7 +59,7 @@
       "company": "Thinq.tv",
       "title": "Frontend Engineer Intern",
       "dates": "May - Aug 2019",
-      "description": "Developed prominent features on the front page of the website to capture user engagement and visibility while proactively looking for other opportunities to help such as enhancing the website's performance.",
+      "description": "Developed prominent features on the website's front page to capture user engagement while proactively looking for other opportunities to help, such as enhancing the website's performance.",
       "skills": ["Javascript", "HTML/CSS", "Heroku"],
       "url": "https://www.linkedin.com/company/thinqtv/"
     }
