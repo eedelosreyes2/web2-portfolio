@@ -39,7 +39,7 @@ export default function Work() {
               .split(".")
               .map(
                 (item) =>
-                  item && <div className="text-slate-200 mb-2">{item}.</div>
+                  item && <div key={id} className="text-slate-200 mb-2">{item}.</div>
               )}
             <div className="flex flex-wrap">
               {skills.map((skill) => (
