@@ -13,7 +13,7 @@ export default function Home() {
         <title>Elijah Delos Reyes</title>
         <meta
           name="description"
-          content="Elijah Delos Reyes Online Website Portfolio Resume Fullstack Engineer"
+          content="Elijah Delos Reyes Online Website Portfolio Resume Frontend Engineer"
         />
         <meta
           name="image"
@@ -23,7 +23,7 @@ export default function Home() {
         <meta property="og:title" content="Elijah Delos Reyes" />
         <meta
           property="og:description"
-          content="Elijah Delos Reyes Online Website Portfolio Resume Fullstack Engineer"
+          content="Elijah Delos Reyes Online Website Portfolio Resume Frontend Engineer"
         />
         <meta
           property="og:image"
@@ -35,7 +35,7 @@ export default function Home() {
         <link rel="icon" href="/elijahdr-circle.png" />
       </Helmet>
 
-      <div className="mx-auto max-w-5xl px-5 sm:px-10 py-24">
+      <div className="mx-auto max-w-4xl px-5 sm:px-10 py-24">
         <Intro />
         <Divider variant="small" />
         {/* TODO: Rotating tech stack animation component */}
@@ -45,8 +45,6 @@ export default function Home() {
         <Divider />
         <Skills />
         <Divider />
-        <Hobbies />
-        <Divider variant="small" />
       </div>
     </div>
   );

@@ -27,6 +27,7 @@ export default function Intro() {
 
   return (
     <div className="flex flex-col md:items-center justify-center md:flex-row md:gap-16 gap-8 pb-5">
+      {/* TODO: Subtle animated border */}
       <img
         src="/elijahdr_ai.jpg"
         alt="Elijah Delos Reyes"
@@ -34,15 +35,15 @@ export default function Intro() {
       />
       <div className="flex flex-col gap-3">
         <div className="font-bold text-4xl">Elijah Delos Reyes</div>
-        <div className="text-2xl font-bold text-cyan-500">
-          {/* Fullstack Engineer <span className="font-bold text-center font-bold from-cyan-500 to-violet-600 bg-gradient-to-r bg-clip-text text-transparent">open to work</span> */}
-          Fullstack Engineer
+        <div className="text-2xl font-bold  from-cyan-500 to-violet-600 bg-gradient-to-r bg-clip-text text-transparent">
+          Frontend Engineer
         </div>
         <div className="text-slate-300 pb-4">
           I enjoy crafting web applications displaying intuitive, user-friendly,
           and functional interfaces with attention to detail.
         </div>
 
+        {/* TODO: Redo contact ctas */}
         <div className="flex gap-5">
           {contact.map(({ id, platform, url, label }) => (
             <div key={id}>

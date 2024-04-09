@@ -6,6 +6,7 @@ import { BiLinkExternal } from "react-icons/bi";
 export default function Education() {
   const { school, degree, date, courses, url } = education;
 
+  // TODO
   return (
     <div>
       <div className="font-bold pb-5 text-lg">Education</div>
@@ -28,16 +29,16 @@ export default function Education() {
             </a>
           </IconContext.Provider>
         </div>
-        <div className="text-sm text-slate-300">{date}</div>
+        {/* <div className="text-sm text-slate-300">{date}</div> */}
       </div>
       <div className="font-bold text-cyan-500 text-3xl pb-2">{degree}</div>
-      <div className="flex flex-wrap">
+      {/* <div className="flex flex-wrap">
         {courses.map((skill) => (
           <div key={skill} className="font-bold text-violet-600 pr-3">
             {skill}
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
