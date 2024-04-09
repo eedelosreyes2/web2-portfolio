@@ -1,11 +1,9 @@
 import { Helmet } from "react-helmet";
 import Intro from "./components/intro";
 import Projects from "./components/projects";
-import Work from "./components/work";
 import Education from "./components/education";
 import Skills from "./components/skills";
 import Hobbies from "./components/hobbies";
-import Contact from "./components/contact";
 import Divider from "./components/divider";
 
 export default function Home() {
@@ -37,13 +35,10 @@ export default function Home() {
         <link rel="icon" href="/elijahdr-circle.png" />
       </Helmet>
 
-      {/* <div className="bg-cyan-500 h-2"></div> */}
-      <div className="mx-auto max-w-xl px-5 sm:px-10 py-24">
+      <div className="mx-auto max-w-5xl px-5 sm:px-10 py-24">
         <Intro />
-        <Contact />
         <Divider variant="small" />
-        <Work />
-        <Divider />
+        {/* TODO: Rotating tech stack animation component */}
         <Projects />
         <Divider />
         <Education />
@@ -53,7 +48,6 @@ export default function Home() {
         <Hobbies />
         <Divider variant="small" />
       </div>
-      {/* <div className="bg-violet-600 h-2"></div> */}
     </div>
   );
 }
