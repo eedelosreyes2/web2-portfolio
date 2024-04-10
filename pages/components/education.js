@@ -15,30 +15,12 @@ export default function Education() {
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center font-bold pr-2"
+          className="flex items-center pr-2"
         >
-          <IconContext.Provider value={{ size: 16 }}>
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center font-bold gap-2 hover:underline"
-            >
-              {school}
-              <BiLinkExternal />
-            </a>
-          </IconContext.Provider>
+          {school}
         </div>
-        {/* <div className="text-sm text-slate-300">{date}</div> */}
       </div>
-      <div className="font-bold text-cyan-500 text-3xl pb-2">{degree}</div>
-      {/* <div className="flex flex-wrap">
-        {courses.map((skill) => (
-          <div key={skill} className="font-bold text-violet-600 pr-3">
-            {skill}
-          </div>
-        ))}
-      </div> */}
+      <div className="text-cyan-500 text-3xl pb-2">{degree}</div>
     </div>
   );
 }

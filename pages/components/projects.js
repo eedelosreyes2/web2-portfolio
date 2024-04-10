@@ -4,12 +4,14 @@ export default function Projects() {
   return (
     <>
       <div className="font-bold pb-10 text-lg">Projects</div>
+      {/* https://flowbite.com/docs/components/accordion/ */}
       <div id="accordion-flush" data-accordion="collapse">
         {projects.map((project, i) => {
           const { id, title, name, dates, description, skills, url, github_url, image } = project;
           return (
             <>
               {/* TODO: Smooth accordion transition */}
+              {/* TODO: Auto play function with pause */}
               <div key={id} className="flex justify-between items-center py-8 w-full cursor-pointer border-b border-slate-700" data-accordion-target={`#${name}`} aria-expanded="true">
                 <div className="text-xl md:text-3xl">{title}</div>
                 <svg data-accordion-icon className="w-4 h-4 md:w-6 md:h-6 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">

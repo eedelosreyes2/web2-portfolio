@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import Intro from "./components/intro";
 import Projects from "./components/projects";
+import Work from "./components/work";
 import Education from "./components/education";
 import Skills from "./components/skills";
 import Hobbies from "./components/hobbies";
@@ -38,12 +39,13 @@ export default function Home() {
       <div className="mx-auto max-w-4xl px-5 sm:px-10 py-24">
         <Intro />
         <Divider variant="small" />
-        {/* TODO: Rotating tech stack animation component */}
+        <Skills />
+        <Divider />
         <Projects />
         <Divider />
-        <Education />
+        <Work />
         <Divider />
-        <Skills />
+        <Education />
         <Divider />
       </div>
     </div>
