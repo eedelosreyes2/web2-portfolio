@@ -3,7 +3,7 @@ import { projects } from "../clientData/projects.json";
 export default function Projects() {
   return (
     <>
-      <div className="font-bold text-lg">Projects</div>
+      <div className="font-bold text-lg pb-8">Projects</div>
       {/* <div id="default-carousel" className="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div className="relative h-64 overflow-hidden rounded-lg">
