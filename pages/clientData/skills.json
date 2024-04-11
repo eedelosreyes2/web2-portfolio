@@ -17,13 +17,13 @@
     },
     {
       "id": 3,
-      "name": "Redux",
-      "image": "/technologies/redux.svg"
+      "name": "Next",
+      "image": "/technologies/nextjs.svg"
     },
     {
       "id": 4,
-      "name": "Next",
-      "image": "/technologies/nextjs.svg"
+      "name": "Redux",
+      "image": "/technologies/redux.svg"
     },
     {
       "id": 5,
