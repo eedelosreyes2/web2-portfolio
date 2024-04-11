@@ -39,13 +39,13 @@ export default function Home() {
       <div className="mx-auto max-w-4xl px-5 sm:px-10 py-24">
         <Intro />
         <Divider variant="small" />
-        <Skills />
-        <Divider />
         <Projects />
         <Divider />
         <Work />
         <Divider />
         <Education />
+        <Divider />
+        <Skills />
         <Divider />
       </div>
     </div>
