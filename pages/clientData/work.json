@@ -3,8 +3,9 @@
     {
       "id": 0,
       "company": "Robert Half",
+      "name": "robert_half",
       "title": "Full Stack Engineer II",
-      "dates": "Nov 2020 - Present",
+      "dates": "November 2020 - Present",
       "description": "Contributing to replatforming and maintaining 20 global websites, resulting in a 25% increase in user engagement in the first 4 months of launch via collaboration with 5+ cross-functional teams. Expertly building a pivotal component library containing 100+ high-performance web components with 250+ variants and taking ownership of its release process. Minimizing production bugs and resolving bottlenecks by leading the research and implementation of processes to improve development and testing cycles. Fostering a collaborative and empowered team workspace by mentoring fellow team members, conducting simultaneous code reviews, and regularly offering support wherever needed.",
       "skills": [
         "Javascript",
@@ -21,8 +22,9 @@
     {
       "id": 1,
       "company": "Boonoob",
+      "name": "boonoob",
       "title": "Full Stack Engineer",
-      "dates": "Jun - Nov 2020",
+      "dates": "June - November 2020",
       "description": "Conceptualized and executed user-friendly features, resulting in a 20% boost in user acquisition through collaboration with the business and production teams. Orchestrated the design and implementation of foundational REST API endpoints asynchronously in Node, instrumental in the company's early stages and gaining initial users.",
       "skills": [
         "Javascript",
@@ -39,8 +41,9 @@
     {
       "id": 2,
       "company": "Fanmire",
+      "name": "fanmire",
       "title": "Full Stack Engineer",
-      "dates": "Jan - May 2020",
+      "dates": "January - May 2020",
       "description": "Led the design and engineering of a web app aggregating social media content from Twitter, Facebook, and Instagram APIs into a dynamic, unified newsfeed, satisfying business requests.",
       "skills": [
         "Javascript",
@@ -57,8 +60,9 @@
     {
       "id": 3,
       "company": "Thinq.tv",
+      "name": "thinq_tv",
       "title": "Frontend Engineer Intern",
-      "dates": "May - Aug 2019",
+      "dates": "May - August 2019",
       "description": "Developed prominent features on the website's front page to capture user engagement while proactively looking for other opportunities to help, such as enhancing the website's performance.",
       "skills": ["Javascript", "HTML/CSS", "Heroku"],
       "url": "https://www.linkedin.com/company/thinqtv/"

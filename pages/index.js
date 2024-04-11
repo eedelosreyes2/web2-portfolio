@@ -5,7 +5,6 @@ import Work from "./components/work";
 import Education from "./components/education";
 import Skills from "./components/skills";
 import Hobbies from "./components/hobbies";
-import Contact from "./components/contact";
 import Divider from "./components/divider";
 
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
         <title>Elijah Delos Reyes</title>
         <meta
           name="description"
-          content="Elijah Delos Reyes Online Website Portfolio Resume Fullstack Engineer"
+          content="Elijah Delos Reyes Online Website Portfolio Resume Frontend Engineer"
         />
         <meta
           name="image"
@@ -25,7 +24,7 @@ export default function Home() {
         <meta property="og:title" content="Elijah Delos Reyes" />
         <meta
           property="og:description"
-          content="Elijah Delos Reyes Online Website Portfolio Resume Fullstack Engineer"
+          content="Elijah Delos Reyes Online Website Portfolio Resume Frontend Engineer"
         />
         <meta
           property="og:image"
@@ -37,23 +36,18 @@ export default function Home() {
         <link rel="icon" href="/elijahdr-circle.png" />
       </Helmet>
 
-      {/* <div className="bg-cyan-500 h-2"></div> */}
-      <div className="mx-auto max-w-xl px-5 sm:px-10 py-24">
+      <div className="mx-auto max-w-4xl px-5 sm:px-10 py-24">
         <Intro />
-        <Contact />
         <Divider variant="small" />
-        <Work />
-        <Divider />
         <Projects />
+        <Divider />
+        <Work />
         <Divider />
         <Education />
         <Divider />
         <Skills />
         <Divider />
-        <Hobbies />
-        <Divider variant="small" />
       </div>
-      {/* <div className="bg-violet-600 h-2"></div> */}
     </div>
   );
 }

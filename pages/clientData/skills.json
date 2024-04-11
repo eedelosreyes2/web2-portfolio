@@ -1,43 +1,169 @@
 {
   "skills": [
-    "Javascript",
-    "Typescript",
-    "React",
-    "Next",
-    "Vue",
-    "Tailwind",
-    "Bootstrap",
-    "Stencil",
-    "Storybook",
-    "Chromatic",
-    "Jest",
-    "HTML/CSS",
-    "JSX",
-    "Node",
-    "Express",
-    "Axios",
-    "Git",
-    "REST",
-    "Graphql",
-    "Postgres",
-    "Apollo",
-    "Postman",
-    "Auth0",
-    "Prisma",
-    "Supabase",
-    "Heroku",
-    "MongoDB",
-    "Firebase",
-    "Google Cloud",
-    "Google Chrome Extension",
-    "Webflow",
-    "Adobe AEM",
-    "Drupal",
-    "PHP",
-    "Java",
-    "Python",
-    "Figma",
-    "Adobe XD",
-    "Solana"
+    {
+      "id": 0,
+      "name": "Javascript",
+      "image": "/technologies/javascript.svg"
+    },
+    {
+      "id": 1,
+      "name": "Typescript",
+      "image": "/technologies/typescript.svg"
+    },
+    {
+      "id": 2,
+      "name": "React",
+      "image": "/technologies/react.svg"
+    },
+    {
+      "id": 3,
+      "name": "Redux",
+      "image": "/technologies/redux.svg"
+    },
+    {
+      "id": 4,
+      "name": "Next",
+      "image": "/technologies/nextjs.svg"
+    },
+    {
+      "id": 5,
+      "name": "Tailwind",
+      "image": "/technologies/tailwind.svg"
+    },
+    {
+      "id": 6,
+      "name": "Flowbite",
+      "image": "/technologies/flowbite.png"
+    },
+    {
+      "id": 7,
+      "name": "Bootstrap",
+      "image": "/technologies/bootstrap.svg"
+    },
+    {
+      "id": 8,
+      "name": "Stencil",
+      "image": "/technologies/stencil.png"
+    },
+    {
+      "id": 9,
+      "name": "Storybook",
+      "image": "/technologies/storybook.svg"
+    },
+    {
+      "id": 10,
+      "name": "Chromatic",
+      "image": "/technologies/chromatic.svg"
+    },
+    {
+      "id": 11,
+      "name": "HTML",
+      "image": "/technologies/html5.svg"
+    },
+    {
+      "id": 12,
+      "name": "CSS",
+      "image": "/technologies/css3.png"
+    },
+    {
+      "id": 13,
+      "name": "Jest",
+      "image": "/technologies/jest.svg"
+    },
+    {
+      "id": 14,
+      "name": "Node",
+      "image": "/technologies/node.svg"
+    },
+    {
+      "id": 15,
+      "name": "Git",
+      "image": "/technologies/git.svg"
+    },
+    {
+      "id": 16,
+      "name": "REST",
+      "image": "/technologies/rest.webp"
+    },
+    {
+      "id": 17,
+      "name": "GraphQL",
+      "image": "/technologies/graphql.svg"
+    },
+    {
+      "id": 18,
+      "name": "PostgreSQL",
+      "image": "/technologies/postgresql.svg"
+    },
+    {
+      "id": 19,
+      "name": "Apollo",
+      "image": "/technologies/apollo.svg"
+    },
+    {
+      "id": 20,
+      "name": "Postman",
+      "image": "/technologies/postman.svg"
+    },
+    {
+      "id": 21,
+      "name": "Auth0",
+      "image": "/technologies/auth0.png"
+    },
+    {
+      "id": 22,
+      "name": "Prisma",
+      "image": "/technologies/prisma.svg"
+    },
+    {
+      "id": 23,
+      "name": "Supabase",
+      "image": "/technologies/supabase.svg"
+    },
+    {
+      "id": 24,
+      "name": "Heroku",
+      "image": "/technologies/heroku.svg"
+    },
+    {
+      "id": 25,
+      "name": "MongoDB",
+      "image": "/technologies/mongodb.svg"
+    },
+    {
+      "id": 26,
+      "name": "Firebase",
+      "image": "/technologies/firebase.svg"
+    },
+    {
+      "id": 27,
+      "name": "Webflow",
+      "image": "/technologies/webflow.svg"
+    },
+    {
+      "id": 28,
+      "name": "Adobe AEM",
+      "image": "/technologies/aem.svg"
+    },
+    {
+      "id": 29,
+      "name": "Drupal",
+      "image": "/technologies/drupal.svg"
+    },
+    {
+      "id": 30,
+      "name": "PHP",
+      "image": "/technologies/php.svg"
+    },
+    {
+      "id": 31,
+      "name": "Java",
+      "image": "/technologies/java.svg"
+    },
+    {
+      "id": 32,
+      "name": "Python",
+      "image": "/technologies/python.svg"
+    }
   ]
 }

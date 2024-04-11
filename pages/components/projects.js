@@ -1,120 +1,101 @@
-import { projects, web3Projects } from "../clientData/projects.json";
-import Divider from "./divider";
-import { IconContext } from "react-icons";
-import { FaGithub } from "react-icons/fa";
-import { FaPlay } from "react-icons/fa";
+import { projects } from "../clientData/projects.json";
 
 export default function Projects() {
-  const renderButton = (id, url, github_url) => {
-    if (!url && !github_url) return;
-
-    const colorClass = url
-      ? "bg-gradient-to-br from-green-400 to-lime-600 rounded-full p-2 px-4 flex items-center"
-      : "bg-gradient-to-br from-green-400 to-indigo-500 rounded-full p-2 px-4 flex items-center";
-
-    return (
-      <div key={id} className="text-center mt-5 mr-3">
-        <a
-          href={url ?? github_url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-bold text-white"
-        >
-          <div className={colorClass}>
-            {url ? "Live Demo" : "Code"}
-            {url && (
-              <IconContext.Provider value={{ size: 15 }}>
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="pl-2"
-                >
-                  <FaPlay />
-                </a>
-              </IconContext.Provider>
-            )}
-            {github_url && (
-              <IconContext.Provider value={{ size: 20 }}>
-                <a
-                  href={github_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="pl-2"
-                >
-                  <FaGithub />
-                </a>
-              </IconContext.Provider>
-            )}
-          </div>
-        </a>
-      </div>
-    );
-  };
-
   return (
     <>
-      <div className="font-bold pb-5 text-lg">Projects</div>
-      {projects.map(
-        ({ id, title, dates, description, skills, url, github_url }, i) => (
-          <div key={id} className={projects.length > i + 1 ? "pb-20" : ""}>
-            <div className="flex-column pb-2">
-              <div className="flex flex-col">
-                <div className="text-sm text-slate-300 pb-2">{dates}</div>
-                <div className="flex items-end font-bold text-3xl text-cyan-500">
-                  {title}
-                </div>
-              </div>
-            </div>
-            {description
-              .split(".")
-              .map(
-                (item) =>
-                  item && <div key={id} className="text-slate-200 mb-2">{item}.</div>
-              )}
-            <div className="flex flex-wrap">
-              {skills.map((skill) => (
-                <div key={skill} className="font-bold text-violet-600 pr-3">
-                  {skill}
-                </div>
-              ))}
-            </div>
-            <div className="flex justify-start flex-wrap">
-              {renderButton(id, url, null)}
-              {renderButton(id, null, github_url)}
-            </div>
-          </div>
-        )
-      )}
+      <div className="font-bold text-lg">Projects</div>
+      {/* <div id="default-carousel" className="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div className="relative h-64 overflow-hidden rounded-lg">
+          {projects.map((project, i) => {
+            const { id, title, name, dates, description, skills, url, github_url, image } = project;
 
-      <Divider />
-      <div className="font-bold pb-5 text-lg">Web3 Projects</div>
-      {web3Projects.map(
-        ({ id, title, dates, description, skills, url, github_url }, i) => (
-          <div key={id} className={web3Projects.length > i + 1 ? "pb-20" : ""}>
-            <div className="flex-column pb-2">
-              <div className="flex flex-col">
-                <div className="text-sm text-slate-300 pb-2">{dates}</div>
-                <div className="flex items-end font-bold text-3xl text-cyan-500">
-                  {title}
+            // TODO: Add img inside Device Mockup?
+            return (
+              <div key={i} className="hidden bg-slate-900 duration-[20000] ease-in-out flex flex-col" data-carousel-item>
+                <div className="flex justify-between items-center py-8 w-full cursor-pointer border-b border-slate-700">
+                  <div className="text-xl md:text-3xl">{title}</div>
+                </div>
+                <div className="flex flex-col">
+                  {image && <img src={image} />}
+                  <div className="flex flex-col gap-5 pt-5">
+                    <div>
+                      {description}
+                    </div>
+                    <div className="flex flex-col md:flex-row gap-5 pb-12">
+                      <a href={url} target="_blank" className="text-center flex-grow text-white bg-green-700 hover:bg-green-800 rounded-lg font-bold w-full p-2 md:p-3">Launch App</a>
+                      <a href={github_url} target="_blank" className="text-center flex-grow text-white bg-blue-700 hover:bg-blue-800 rounded-lg font-bold w-full p-2 md:p-3">View Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+        <!-- Slider indicators -->
+        <div className="absolute z-30 flex -translate-x-1/2 bottom-1 left-1/2 space-x-3 rtl:space-x-reverse">
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="false" aria-label="Slide 7" data-carousel-slide-to="6"></button>
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="false" aria-label="Slide 8" data-carousel-slide-to="7"></button>
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="false" aria-label="Slide 9" data-carousel-slide-to="8"></button>
+          <button type="button" className="w-3 h-3 bg-slate-400 rounded-full" aria-current="false" aria-label="Slide 10" data-carousel-slide-to="9"></button>
+        </div>
+        <!-- Slider controls -->
+        <div className="flex justify-center gap-72 items-center pt-10">
+          <button type="button" className="flex justify-center items-center h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span className="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
+              <svg className="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 5H1m0 0 4 4M1 5l4-4" />
+              </svg>
+              <span className="sr-only">Previous</span>
+            </span>
+          </button>
+          <button type="button" className="flex justify-center items-center h-full cursor-pointer group focus:outline-none" data-carousel-next>
+            <span className="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
+              <svg className="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+              <span className="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+      </div> */}
+
+
+
+      {/* https://flowbite.com/docs/components/accordion/ */}
+      <div id="accordion-flush" data-accordion="collapse">
+        {projects.map((project, i) => {
+          const { id, title, name, dates, description, skills, url, github_url, image } = project;
+          return (
+            <div key={id}>
+              <div className="flex justify-between items-center py-8 w-full cursor-pointer border-b border-slate-700" data-accordion-target={`#${name}`} aria-expanded="true">
+                <div className="text-xl md:text-3xl">{title}</div>
+                <svg data-accordion-icon className="w-4 h-4 md:w-6 md:h-6 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5" />
+                </svg>
+              </div>
+              <div id={name} className="hidden flex flex-col" aria-labelledby={id}>
+                {image && <img src={image} />}
+                <div className="flex flex-col gap-5 pt-5">
+                  <div>
+                    {description}
+                  </div>
+                  <div className="flex flex-col md:flex-row gap-5 pb-12">
+                    <a href={url} target="_blank" rel="noreferrer" className="text-center flex-grow bg-green-700 hover:bg-green-800 rounded-lg font-bold w-full p-2 md:p-3">Launch App</a>
+                    <a href={github_url} target="_blank" rel="noreferrer" className="text-center flex-grow bg-blue-700 hover:bg-blue-800 rounded-lg font-bold w-full p-2 md:p-3">View Code</a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="text-slate-200 mb-2">{description}</div>
-            <div className="flex flex-wrap">
-              {skills.map((skill) => (
-                <div key={skill} className="font-bold text-violet-600 pr-3">
-                  {skill}
-                </div>
-              ))}
-            </div>
-            <div className="flex justify-start flex-wrap">
-              {renderButton(id, url, null)}
-              {renderButton(id, null, github_url)}
-            </div>
-          </div>
-        )
-      )}
+          )
+        })}
+      </div>
     </>
   );
 }

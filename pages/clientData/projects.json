@@ -2,6 +2,7 @@
   "projects": [
     {
       "id": 7,
+      "name": "underground_universal_web_app",
       "title": "Underground Universal Web App",
       "dates": "Oct - Feb 2023",
       "description": "Designed and built a comprehensive and highly-functional web application for underground musical artists, enabling them to create user-authenticated accounts, manage their profiles, discover, collaborate, and share with fellow artists on a visually captivating interface and user-friendly platform.",
@@ -19,19 +20,23 @@
         "Figma"
       ],
       "url": "https://underground-universal-01.vercel.app/",
-      "github_url": "https://github.com/eedelosreyes2/underground-universal-0.1"
+      "github_url": "https://github.com/eedelosreyes2/underground-universal-0.1",
+      "image": "/projects/UU_Web_App.png"
     },
     {
       "id": 6,
+      "name": "record_label_landing_page",
       "title": "Record Label Landing Page",
       "dates": "Sep - Oct 2022",
       "description": "Developed the landing page for Underground Universal, a record label dedicated to providing artists complete royalty control while offering a range of services, showcasing a website that is concise and engaging while displaying the record label's dignified values.",
       "skills": ["Typescript", "Next", "Tailwind", "Webflow"],
       "url": "https://underground-universal-website.vercel.app/",
-      "github_url": "https://github.com/eedelosreyes2/underground-universal-website"
+      "github_url": "https://github.com/eedelosreyes2/underground-universal-website",
+      "image": "/projects/UU_Landing_Page.png"
     },
     {
       "id": 1,
+      "name": "diffusion_board_creator",
       "title": "Diffusion Board Creator",
       "dates": "May - Aug 2021",
       "description": "Created a web application enabling users to curate and personalize their preferred online content, offering the convenience of utilizing a Chrome extension or manually adding URLs to organize blog posts, tweets, YouTube videos, and more into custom boards, engaging seamless sharing with friends.",
@@ -44,19 +49,23 @@
         "Figma"
       ],
       "url": "https://diffusion-pinboard-creator-mvp.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/diffusion-pinboard-creator-mvp"
+      "github_url": "https://github.com/eedelosreyes2/diffusion-pinboard-creator-mvp",
+      "image": "/projects/Diffusion_Board_Creator.png"
     },
     {
       "id": 0,
+      "name": "twitter_react_app",
       "title": "Twitter React App",
       "dates": "Jul - Sep 2020",
       "description": "Engineered a replica of the Twitter web app using React, featuring essential post, like, and retweet functionalities within a visually identical and responsive user interface, designed for optimal performance across all devices.",
       "skills": ["Javascript", "React", "JSX", "Bootstrap"],
       "url": "https://twitter-react-eli.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/twitter-react"
+      "github_url": "https://github.com/eedelosreyes2/twitter-react",
+      "image": "/projects/Twitter_React_App.png"
     },
     {
-      "id": 7,
+      "id": 9,
+      "name": "pizza_ordering_app",
       "title": "Pizza Ordering App",
       "dates": "Jun - Oct 2017",
       "description": "Explored basic developement through building one of my first personal projects, a Java Swing application for streamlined pizza ordering.",
@@ -65,25 +74,27 @@
     },
     {
       "id": 8,
+      "name": "dont_get_hit_by_the_hay",
       "title": "Don't Get Hit By The Hay",
       "dates": "Dec - Jan 2017",
       "description": "Dove into my first ever personal project and created a platform type game, written in Python, where you try to avoid falling objects.",
       "skills": ["Python", "Pygame"],
       "github_url": "https://github.com/eedelosreyes2/Python-Game"
-    }
-  ],
-  "web3Projects": [
+    }, 
     {
       "id": 5,
+      "name": "whac_a_NFT",
       "title": "Whac-a-NFT",
       "dates": "Jul 2022",
       "description": "Seamlessly integrated NFTs into an play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
       "skills": ["Typescript", "Next", "Tailwind", "Moralis Solana"],
       "url": "https://whac-a-nft.vercel.app/",
-      "github_url": "https://github.com/eedelosreyes2/whac-a-nft"
+      "github_url": "https://github.com/eedelosreyes2/whac-a-nft",
+      "image": "/projects/Whac_a_NFT.png"
     },
     {
       "id": 4,
+      "name": "solana_wallet_tracker",
       "title": "Solana Wallet Tracker",
       "dates": "Jun 2022",
       "description": "Developed a Solana wallet analysis tool enabling users to effortlessly track both token balances and NFT holdings, serving as a learning project in the realm of Solana development.",
@@ -96,10 +107,12 @@
         "Tailwind"
       ],
       "url": "https://solana-wallet-tracker-eli.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/solana-wallet-tracker"
+      "github_url": "https://github.com/eedelosreyes2/solana-wallet-tracker",
+      "image": "/projects/Solana_Wallet_Tracker.png"
     },
     {
       "id": 3,
+      "name": "solana_pay_store",
       "title": "Solana Pay Store",
       "dates": "Jun 2022",
       "description": "Established an e-commerce platform seamlessly integrated with Solana Pay, empowering users to make purchases using SPL tokens. Inspired from the Buildspace community.",
@@ -111,10 +124,12 @@
         "IPFS"
       ],
       "url": "https://solana-pay-eli.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/solana-pay-starter"
+      "github_url": "https://github.com/eedelosreyes2/solana-pay-starter",
+      "image": "/projects/Solana_Pay_Store.png"
     },
     {
       "id": 2,
+      "name": "web3_discovery",
       "title": "Web3 Discovery",
       "dates": "Apr - May 2022",
       "description": "Developed a Web3 discovery application facilitating effortless exploration of 50+ blockchain companies and platforms, offering dynamic filtering, search, and detailed insights into our database.",
@@ -127,7 +142,8 @@
         "Heroku"
       ],
       "url": "https://web3-company-discovery-9ndql3i1d-eedelosreyes2.vercel.app/",
-      "github_url": "https://github.com/eedelosreyes2/web3-company-discovery"
+      "github_url": "https://github.com/eedelosreyes2/web3-company-discovery",
+      "image": "/projects/Web3_Discovery.png"
     }
   ]
 }
