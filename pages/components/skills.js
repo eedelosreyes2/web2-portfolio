@@ -14,8 +14,8 @@ export default function Skills() {
                 <Image src={image} height={64} width={64} alt={name}></Image>
               </button>
               <div id={name} role="tooltip" className="absolute z-10 invisible inline-block 
-                px-3 py-2 text-sm font-medium transition-opacity duration-300 rounded-lg shadow-sm 
-                opacity-0 tooltip bg-blue-900">
+                px-3 py-2 text-sm transition-opacity duration-300 rounded-lg shadow-sm 
+                opacity-0 tooltip bg-gray-700 font-bold">
                 {name}
                 <div className="tooltip-arrow" data-popper-arrow></div>
               </div>
