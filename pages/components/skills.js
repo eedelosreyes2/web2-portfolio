@@ -15,7 +15,7 @@ export default function Skills() {
               </button>
               <div id={name} role="tooltip" className="absolute z-10 invisible inline-block 
                 px-3 py-2 text-sm font-medium transition-opacity duration-300 rounded-lg shadow-sm 
-                opacity-0 tooltip bg-gray-700 dark:bg-gray-700">
+                opacity-0 tooltip bg-blue-900">
                 {name}
                 <div className="tooltip-arrow" data-popper-arrow></div>
               </div>
