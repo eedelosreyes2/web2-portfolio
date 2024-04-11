@@ -87,8 +87,8 @@ export default function Projects() {
                     {description}
                   </div>
                   <div className="flex flex-col md:flex-row gap-5 pb-12">
-                    <a href={url} target="_blank" className="text-center flex-grow bg-green-700 hover:bg-green-800 rounded-lg font-bold w-full p-2 md:p-3">Launch App</a>
-                    <a href={github_url} target="_blank" className="text-center flex-grow bg-blue-700 hover:bg-blue-800 rounded-lg font-bold w-full p-2 md:p-3">View Code</a>
+                    <a href={url} target="_blank" rel="noreferrer" className="text-center flex-grow bg-green-700 hover:bg-green-800 rounded-lg font-bold w-full p-2 md:p-3">Launch App</a>
+                    <a href={github_url} target="_blank" rel="noreferrer" className="text-center flex-grow bg-blue-700 hover:bg-blue-800 rounded-lg font-bold w-full p-2 md:p-3">View Code</a>
                   </div>
                 </div>
               </div>
