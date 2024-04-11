@@ -5,7 +5,7 @@ export default function Education() {
 
   return (
     <>
-      <div className="font-bold pb-8 text-lg">Education</div>
+      <div className="font-bold pb-16 text-lg">Education</div>
       <ol className="relative border-s border-gray-200 border-gray-700 dark:border-gray-700">
         <li className="mb-10 ms-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white ring-gray-900 bg-blue-900 dark:ring-gray-900 dark:bg-blue-900">
@@ -20,7 +20,7 @@ export default function Education() {
             <div className="flex flex-col text-lg flex-wrap gap-1">
               <span className="flex items-center gap-5 text-cyan-500">{degree}</span>
               <span>{school}</span>
-              <time className="block pb-5 font-normal text-sm leading-none text-slate-300">{date}</time>
+              <time className="block pb-1 font-normal text-sm leading-none text-slate-300">{date}</time>
             </div>
           </div>
         </li>

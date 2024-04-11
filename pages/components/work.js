@@ -3,7 +3,7 @@ import { jobs } from "../clientData/work.json";
 export default function Work() {
   return (
     <>
-      <div className="font-bold pb-8 text-lg">Experience</div>
+      <div className="font-bold pb-16 text-lg">Experience</div>
       <ol className="relative border-s border-gray-200 border-gray-700 dark:border-gray-700">
         {jobs.map((job, i) => {
           const { id, company, name, title, dates, description, skills, url } = job;
