@@ -18,9 +18,9 @@ export default function Education() {
           </span>
           <div className="flex items-center">
             <div className="flex flex-col text-lg flex-wrap gap-1">
-              <span className="flex items-center gap-5 text-cyan-500">{degree}</span>
+              <span className="flex items-center font-bold gap-5 text-cyan-500">{degree}</span>
               <span>{school}</span>
-              <time className="block pb-1 font-normal text-sm leading-none text-slate-300">{date}</time>
+              <time className="block pb-1 text-sm leading-none text-slate-300">{date}</time>
             </div>
           </div>
         </li>

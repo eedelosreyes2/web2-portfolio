@@ -35,7 +35,7 @@ export default function Intro() {
       />
       <div className="flex flex-col gap-3">
         <div className="text-4xl">Elijah Delos Reyes</div>
-        <div className="text-2xl  from-cyan-500 to-violet-600 bg-gradient-to-r bg-clip-text text-transparent">
+        <div className="text-2xl font-bold from-cyan-500 to-violet-600 bg-gradient-to-r bg-clip-text text-transparent">
           Frontend Engineer
         </div>
         <div className="text-slate-300 pb-4">

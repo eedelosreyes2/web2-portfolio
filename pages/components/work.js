@@ -17,7 +17,7 @@ export default function Work() {
               </span>
               <div className="flex items-center">
                 <div className="flex flex-col text-lg flex-wrap gap-1">
-                  <span className="flex items-center gap-5 text-cyan-500">{title} {i === 0 && <span className="text-center text-sm me-2 px-2.5 py-0.5 rounded bg-blue-900 text-slate-300">Current</span>}</span>
+                  <span className="flex items-center font-bold gap-5 text-cyan-500">{title} {i === 0 && <span className="text-center text-sm me-2 px-2.5 py-0.5 rounded bg-blue-900 text-slate-300">Current</span>}</span>
                   <span>{company}</span>
                   <time className="block pb-5 text-sm leading-none text-slate-300">{dates}</time>
                 </div>
