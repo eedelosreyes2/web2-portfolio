@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": 7,
+      "id": 0,
       "name": "underground_universal_web_app",
       "title": "Underground Universal Web App",
       "dates": "Oct - Feb 2023",
@@ -24,7 +24,7 @@
       "image": "/projects/UU_Web_App.png"
     },
     {
-      "id": 6,
+      "id": 1,
       "name": "record_label_landing_page",
       "title": "Record Label Landing Page",
       "dates": "Sep - Oct 2022",
@@ -35,7 +35,7 @@
       "image": "/projects/UU_Landing_Page.png"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "diffusion_board_creator",
       "title": "Diffusion Board Creator",
       "dates": "May - Aug 2021",
@@ -53,82 +53,7 @@
       "image": "/projects/Diffusion_Board_Creator.png"
     },
     {
-      "id": 0,
-      "name": "twitter_react_app",
-      "title": "Twitter React App",
-      "dates": "Jul - Sep 2020",
-      "description": "Engineered a replica of the Twitter web app using React, featuring essential post, like, and retweet functionalities within a visually identical and responsive user interface, designed for optimal performance across all devices.",
-      "skills": ["Javascript", "React", "JSX", "Bootstrap"],
-      "url": "https://twitter-react-eli.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/twitter-react",
-      "image": "/projects/Twitter_React_App.png"
-    },
-    {
-      "id": 9,
-      "name": "pizza_ordering_app",
-      "title": "Pizza Ordering App",
-      "dates": "Jun - Oct 2017",
-      "description": "Explored basic developement through building one of my first personal projects, a Java Swing application for streamlined pizza ordering.",
-      "skills": ["Java", "Java Swing"],
-      "github_url": "https://github.com/eedelosreyes2/Pizza-Ordering-Application"
-    },
-    {
-      "id": 8,
-      "name": "dont_get_hit_by_the_hay",
-      "title": "Don't Get Hit By The Hay",
-      "dates": "Dec - Jan 2017",
-      "description": "Dove into my first ever personal project and created a platform type game, written in Python, where you try to avoid falling objects.",
-      "skills": ["Python", "Pygame"],
-      "github_url": "https://github.com/eedelosreyes2/Python-Game"
-    }, 
-    {
-      "id": 5,
-      "name": "whac_a_NFT",
-      "title": "Whac-a-NFT",
-      "dates": "Jul 2022",
-      "description": "Seamlessly integrated NFTs into an play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
-      "skills": ["Typescript", "Next", "Tailwind", "Moralis Solana"],
-      "url": "https://whac-a-nft.vercel.app/",
-      "github_url": "https://github.com/eedelosreyes2/whac-a-nft",
-      "image": "/projects/Whac_a_NFT.png"
-    },
-    {
-      "id": 4,
-      "name": "solana_wallet_tracker",
-      "title": "Solana Wallet Tracker",
-      "dates": "Jun 2022",
-      "description": "Developed a Solana wallet analysis tool enabling users to effortlessly track both token balances and NFT holdings, serving as a learning project in the realm of Solana development.",
-      "skills": [
-        "Solana Web3",
-        "JSON RPC",
-        "Moralis Solana",
-        "Typescript",
-        "Next",
-        "Tailwind"
-      ],
-      "url": "https://solana-wallet-tracker-eli.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/solana-wallet-tracker",
-      "image": "/projects/Solana_Wallet_Tracker.png"
-    },
-    {
       "id": 3,
-      "name": "solana_pay_store",
-      "title": "Solana Pay Store",
-      "dates": "Jun 2022",
-      "description": "Established an e-commerce platform seamlessly integrated with Solana Pay, empowering users to make purchases using SPL tokens. Inspired from the Buildspace community.",
-      "skills": [
-        "Solana Pay",
-        "Solana Wallet Adapter",
-        "Typescript",
-        "Next",
-        "IPFS"
-      ],
-      "url": "https://solana-pay-eli.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/solana-pay-starter",
-      "image": "/projects/Solana_Pay_Store.png"
-    },
-    {
-      "id": 2,
       "name": "web3_discovery",
       "title": "Web3 Discovery",
       "dates": "Apr - May 2022",
@@ -144,6 +69,46 @@
       "url": "https://web3-company-discovery-9ndql3i1d-eedelosreyes2.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/web3-company-discovery",
       "image": "/projects/Web3_Discovery.png"
+    },
+    {
+      "id": 4,
+      "name": "whac_a_NFT",
+      "title": "Whac-a-NFT",
+      "dates": "Jul 2022",
+      "description": "Seamlessly integrated NFTs into an play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
+      "skills": ["Typescript", "Next", "Tailwind", "Moralis Solana"],
+      "url": "https://whac-a-nft.vercel.app/",
+      "github_url": "https://github.com/eedelosreyes2/whac-a-nft",
+      "image": "/projects/Whac_a_NFT.png"
+    },
+    {
+      "id": 5,
+      "name": "twitter_react_app",
+      "title": "Twitter React App",
+      "dates": "Jul - Sep 2020",
+      "description": "Engineered a replica of the Twitter web app using React, featuring essential post, like, and retweet functionalities within a visually identical and responsive user interface, designed for optimal performance across all devices.",
+      "skills": ["Javascript", "React", "JSX", "Bootstrap"],
+      "url": "https://twitter-react-eli.vercel.app",
+      "github_url": "https://github.com/eedelosreyes2/twitter-react",
+      "image": "/projects/Twitter_React_App.png"
+    },
+    {
+      "id": 6,
+      "name": "pizza_ordering_app",
+      "title": "Pizza Ordering App",
+      "dates": "Jun - Oct 2017",
+      "description": "Explored basic developement through building one of my first personal projects, a Java Swing application for streamlined pizza ordering.",
+      "skills": ["Java", "Java Swing"],
+      "github_url": "https://github.com/eedelosreyes2/Pizza-Ordering-Application"
+    },
+    {
+      "id": 7,
+      "name": "dont_get_hit_by_the_hay",
+      "title": "Don't Get Hit By The Hay",
+      "dates": "Dec - Jan 2017",
+      "description": "Dove into my first ever personal project and created a platform type game, written in Python, where you try to avoid falling objects.",
+      "skills": ["Python", "Pygame"],
+      "github_url": "https://github.com/eedelosreyes2/Python-Game"
     }
   ]
 }

@@ -35,3 +35,45 @@ export default function Projects() {
     </>
   );
 }
+
+/**
+ * Deprecated projects:
+ * 
+ * {
+    "id": 4,
+    "name": "solana_wallet_tracker",
+    "title": "Solana Wallet Tracker",
+    "dates": "Jun 2022",
+    "description": "Developed a Solana wallet analysis tool enabling users to effortlessly track both token balances and NFT holdings, serving as a learning project in the realm of Solana development.",
+    "skills": [
+      "Solana Web3",
+      "JSON RPC",
+      "Moralis Solana",
+      "Typescript",
+      "Next",
+      "Tailwind"
+    ],
+    "url": "https://solana-wallet-tracker-eli.vercel.app",
+    "github_url": "https://github.com/eedelosreyes2/solana-wallet-tracker",
+    "image": "/projects/Solana_Wallet_Tracker.png"
+  },
+  {
+    "id": 3,
+    "name": "solana_pay_store",
+    "title": "Solana Pay Store",
+    "dates": "Jun 2022",
+    "description": "Established an e-commerce platform seamlessly integrated with Solana Pay, empowering users to make purchases using SPL tokens. Inspired from the Buildspace community.",
+    "skills": [
+      "Solana Pay",
+      "Solana Wallet Adapter",
+      "Typescript",
+      "Next",
+      "IPFS"
+    ],
+    "url": "https://solana-pay-eli.vercel.app",
+    "github_url": "https://github.com/eedelosreyes2/solana-pay-starter",
+    "image": "/projects/Solana_Pay_Store.png"
+  },
+ * 
+ * 
+ */
