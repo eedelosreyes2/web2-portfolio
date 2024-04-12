@@ -10,9 +10,9 @@ export default function Skills() {
           let { id, name, image } = skill;
           return (
             <div key={id}>
-              <button data-tooltip-target={name} type='button'>
+              <div data-tooltip-target={name} >
                 <Image src={image} height={54} width={54} alt={name}></Image>
-              </button>
+              </div>
               <div id={name} role="tooltip" className="absolute z-10 invisible inline-block 
                 px-3 py-2 text-sm transition-opacity duration-300 rounded-lg shadow-sm 
                 opacity-0 tooltip bg-gray-700 font-bold">
