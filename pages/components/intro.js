@@ -40,7 +40,7 @@ export default function Intro() {
         </div>
         <div className="text-slate-300 pb-4">
           I enjoy crafting web applications displaying intuitive, user-friendly,
-          and functional interfaces with attention to detail.
+          and functional interfaces.
         </div>
 
         <div className="flex gap-5">
