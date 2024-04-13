@@ -19,10 +19,10 @@ export default function Work() {
                 <div className="flex flex-col text-lg flex-wrap gap-1">
                   <span className="flex items-center font-bold gap-5 text-cyan-500">{title} {i === 0 && <span className="text-center text-sm me-2 px-2.5 py-0.5 rounded bg-blue-900 text-slate-300">Current</span>}</span>
                   <span>{company}</span>
-                  <time className="block pb-5 text-sm leading-none text-slate-300">{dates}</time>
+                  <time className="block pb-5 text-sm leading-none">{dates}</time>
                 </div>
               </div>
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col gap-3 text-slate-300">
                 {description
                   .split(".")
                   .map(

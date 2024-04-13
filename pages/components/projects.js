@@ -19,7 +19,7 @@ export default function Projects() {
               <div id={name} className="hidden flex flex-col" aria-labelledby={id}>
                 {image && <img src={image} />}
                 <div className="flex flex-col gap-5 pt-5">
-                  <div>
+                  <div className="text-slate-300">
                     {description}
                   </div>
                   <div className="flex flex-col md:flex-row gap-5 pb-12">

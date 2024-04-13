@@ -20,7 +20,7 @@ export default function Education() {
             <div className="flex flex-col text-lg flex-wrap gap-1">
               <span className="flex items-center font-bold gap-5 text-cyan-500">{degree}</span>
               <span>{school}</span>
-              <time className="block pb-1 text-sm leading-none text-slate-300">{date}</time>
+              <time className="block pb-1 text-sm leading-none">{date}</time>
             </div>
           </div>
         </li>

@@ -43,7 +43,6 @@ export default function Intro() {
           and functional interfaces with attention to detail.
         </div>
 
-        {/* TODO: Redo contact ctas */}
         <div className="flex gap-5">
           {contact.map(({ id, platform, url, label }) => (
             <div key={id}>
