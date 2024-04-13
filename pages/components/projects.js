@@ -1,6 +1,15 @@
+import { useRef } from "react";
 import { projects } from "../clientData/projects.json";
 
 export default function Projects() {
+  const ref = useRef({});
+
+  const handleClick = (id) => {
+    if (ref) {
+      ref.current[id]?.current?.scrollIntoView({behavior: 'smooth', block: "start"});
+    }
+  }
+
   return (
     <>
       <div className="font-bold text-lg pb-8">Projects</div>
@@ -9,8 +18,9 @@ export default function Projects() {
         {projects.map((project, i) => {
           const { id, title, name, dates, description, skills, url, github_url, image } = project;
           return (
-            <div key={id}>
-              <div className="flex justify-between items-center py-8 w-full cursor-pointer border-b border-slate-700" data-accordion-target={`#${name}`} aria-expanded="true">
+            // <div key={id} ref={ref.current[id] ??= { current: null }}>
+            <div key={id} ref={ref.current[id] ??= { current: null }}>
+              <div className="flex justify-between items-center py-8 w-full cursor-pointer border-b border-slate-700" data-accordion-target={`#${name}`} aria-expanded="true" onClick={() => handleClick(id)}>
                 <div className="text-xl md:text-3xl">{title}</div>
                 <svg data-accordion-icon className="w-4 h-4 md:w-6 md:h-6 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5" />
