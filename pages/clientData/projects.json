@@ -36,24 +36,6 @@
     },
     {
       "id": 2,
-      "name": "diffusion_board_creator",
-      "title": "Diffusion Board Creator",
-      "dates": "May - Aug 2021",
-      "description": "Created a web application enabling users to curate and personalize their preferred online content, offering the convenience of utilizing a Chrome extension or manually adding URLs to organize blog posts, tweets, YouTube videos, and more into custom boards, engaging seamless sharing with friends.",
-      "skills": [
-        "Javascript",
-        "React",
-        "Firebase",
-        "Google Cloud",
-        "Google Chrome Extension",
-        "Figma"
-      ],
-      "url": "https://diffusion-pinboard-creator-mvp.vercel.app",
-      "github_url": "https://github.com/eedelosreyes2/diffusion-pinboard-creator-mvp",
-      "image": "/projects/Diffusion_Board_Creator.png"
-    },
-    {
-      "id": 3,
       "name": "web3_discovery",
       "title": "Web3 Discovery",
       "dates": "Apr - May 2022",
@@ -69,6 +51,24 @@
       "url": "https://web3-company-discovery-9ndql3i1d-eedelosreyes2.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/web3-company-discovery",
       "image": "/projects/Web3_Discovery.png"
+    },
+    {
+      "id": 3,
+      "name": "diffusion_board_creator",
+      "title": "Diffusion Board Creator",
+      "dates": "May - Aug 2021",
+      "description": "Created a web application enabling users to curate and personalize their preferred online content, offering the convenience of utilizing a Chrome extension or manually adding URLs to organize blog posts, tweets, YouTube videos, and more into custom boards, engaging seamless sharing with friends.",
+      "skills": [
+        "Javascript",
+        "React",
+        "Firebase",
+        "Google Cloud",
+        "Google Chrome Extension",
+        "Figma"
+      ],
+      "url": "https://diffusion-pinboard-creator-mvp.vercel.app",
+      "github_url": "https://github.com/eedelosreyes2/diffusion-pinboard-creator-mvp",
+      "image": "/projects/Diffusion_Board_Creator.png"
     },
     {
       "id": 4,
