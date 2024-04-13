@@ -6,6 +6,7 @@ import Education from "./components/education";
 import Skills from "./components/skills";
 import Hobbies from "./components/hobbies";
 import Divider from "./components/divider";
+import Alert from "./components/alert";
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
 
       <div className="mx-auto max-w-4xl px-5 sm:px-10 py-24">
         <Intro />
+        <Alert />
         <Divider variant="small" />
         <Projects />
         <Divider />

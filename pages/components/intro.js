@@ -47,7 +47,7 @@ export default function Intro() {
         <div className="flex gap-5">
           {contact.map(({ id, platform, url, label }) => (
             <div key={id}>
-              <IconContext.Provider value={{ size: 28 }}>
+              <IconContext.Provider value={{ size: 30 }}>
                 <a href={url} target="_blank" rel="noopener noreferrer">
                   {renderIcon(platform)}
                 </a>
