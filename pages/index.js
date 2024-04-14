@@ -4,9 +4,9 @@ import Projects from "./components/projects";
 import Work from "./components/work";
 import Education from "./components/education";
 import Skills from "./components/skills";
-import Hobbies from "./components/hobbies";
 import Divider from "./components/divider";
 import Alert from "./components/alert";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 export default function Home() {
   return (
@@ -36,6 +36,8 @@ export default function Home() {
 
         <link rel="icon" href="/elijahdr-circle.png" />
       </Helmet>
+
+      <GoogleAnalytics />
 
       <div className="mx-auto max-w-4xl px-5 sm:px-10 py-24">
         <Intro />
