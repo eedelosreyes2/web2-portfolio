@@ -18,7 +18,7 @@ export default function Alert() {
         <span className="font-bold">
           {"I'm looking for Frontend Engineering opportunities"}
         </span>{" "}
-        - Be sure to check out my resume and email me!
+        - Be sure to check out my <a href="/Elijah Delos Reyes - Frontend Engineer.pdf" target="_blank" rel="noopener noreferrer" className="underline">resume</a> and <a href="mailto:delosreyes.elijah@gmail.com" target="_blank" rel="noopener noreferrer" className="underline">email me</a>!
       </div>
     </div>
   );
