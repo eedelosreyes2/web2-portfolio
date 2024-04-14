@@ -39,7 +39,7 @@ export default function Intro() {
           Frontend Engineer
         </div>
         <div className="text-slate-300 pb-4">
-          I enjoy crafting web applications displaying intuitive, user-friendly,
+          I enjoy crafting web applications displaying user-friendly
           and functional interfaces.
         </div>
 
