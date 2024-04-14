@@ -6,8 +6,8 @@ import {
   FaLinkedin,
   FaTwitter,
   FaEnvelope,
-  FaFileAlt,
-} from "react-icons/fa";
+ƒ} from "react-icons/fa";
+import { FaFilePdf } from "react-icons/fa6";
 
 export default function Intro() {
   const renderIcon = (platform) => {
@@ -21,7 +21,7 @@ export default function Intro() {
       case "Email":
         return <FaEnvelope />;
       case "Resume":
-        return <FaFileAlt />;
+        return <FaFilePdf />;
     }
   };
 
