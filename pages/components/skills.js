@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import { skills } from '../clientData/skills.json';
+import Image from "next/image";
+import { skills } from "../clientData/skills.json";
 
 export default function Skills() {
   return (
@@ -10,17 +10,21 @@ export default function Skills() {
           let { id, name, image } = skill;
           return (
             <div key={id}>
-              <button data-tooltip-target={name} type='button'>
+              <button data-tooltip-target={name} type="button">
                 <Image src={image} height={54} width={54} alt={name}></Image>
               </button>
-              <div id={name} role="tooltip" className="absolute z-10 invisible inline-block 
+              <div
+                id={name}
+                role="tooltip"
+                className="absolute z-10 invisible inline-block 
                 px-3 py-2 text-sm transition-opacity duration-300 rounded-lg shadow-sm 
-                opacity-0 tooltip bg-gray-700 font-bold">
+                opacity-0 tooltip bg-gray-700 font-bold"
+              >
                 {name}
                 <div className="tooltip-arrow" data-popper-arrow></div>
               </div>
             </div>
-          )
+          );
         })}
       </div>
     </>

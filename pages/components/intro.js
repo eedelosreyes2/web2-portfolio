@@ -1,12 +1,7 @@
 import { contact } from "../clientData/contact.json";
 
 import { IconContext } from "react-icons";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  FaEnvelope,
-ƒ} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, ƒ } from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa6";
 
 export default function Intro() {
@@ -39,8 +34,8 @@ export default function Intro() {
           Frontend Engineer
         </div>
         <div className="text-slate-300 pb-4">
-          I enjoy crafting web applications displaying user-friendly
-          and functional interfaces.
+          I enjoy crafting web applications displaying user-friendly and
+          functional interfaces.
         </div>
 
         <div className="flex gap-5">

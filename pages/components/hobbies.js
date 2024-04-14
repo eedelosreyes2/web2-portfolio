@@ -1,4 +1,4 @@
-import { hobbies } from '../clientData/hobbies.json';
+import { hobbies } from "../clientData/hobbies.json";
 
 export default function Hobbies() {
   return (
