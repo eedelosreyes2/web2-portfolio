@@ -33,10 +33,10 @@ export default function Intro() {
         <div className="text-2xl font-bold from-cyan-500 to-violet-600 bg-gradient-to-r bg-clip-text text-transparent">
           Frontend Engineer
         </div>
-        <div className="text-slate-300 pb-4">
+        <h3 className="text-slate-300 pb-4">
           I enjoy crafting web applications displaying user-friendly and
           functional interfaces.
-        </div>
+        </h3>
 
         <div className="flex gap-5">
           {contact.map(({ id, platform, url, label }) => (
