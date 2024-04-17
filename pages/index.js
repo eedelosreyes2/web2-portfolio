@@ -31,6 +31,7 @@ export default function Home() {
           property="og:image"
           content="https://elijahdr.vercel.app/elijahdr-circle.png"
         />
+        <meta name="Elijah Delos Reyes" content="/elijahdr-circle.png"></meta>
         <meta property="og:url" content="https://elijahdr.vercel.app/" />
         <meta property="og:type" content="website" />
 
