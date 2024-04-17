@@ -15,7 +15,7 @@ export default function Home() {
         <title>Elijah Delos Reyes</title>
         <meta
           name="description"
-          content="Elijah Delos Reyes Online Website Portfolio Resume Frontend Engineer"
+          content="I enjoy crafting web applications displaying user-friendly and functional interfaces."
         />
         <meta
           name="image"
@@ -25,7 +25,7 @@ export default function Home() {
         <meta property="og:title" content="Elijah Delos Reyes" />
         <meta
           property="og:description"
-          content="Elijah Delos Reyes Online Website Portfolio Resume Frontend Engineer"
+          content="I enjoy crafting web applications displaying user-friendly and functional interfaces."
         />
         <meta
           property="og:image"
