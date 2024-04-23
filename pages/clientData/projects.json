@@ -5,7 +5,7 @@
       "name": "underground_universal_web_app",
       "title": "Underground Universal Web App",
       "dates": "Oct - Feb 2023",
-      "description": "Designed and built a comprehensive and highly-functional web application for underground musical artists, enabling them to create user-authenticated accounts, manage their profiles, discover, collaborate, and share with fellow artists on a visually captivating interface and user-friendly platform.",
+      "description": "Increased discoverability and support for underground musical artists by building a web app to create user-authenticated accounts, manage their profiles, collaborate, and share their music on a user-friendly platform.",
       "skills": [
         "Typescript",
         "Next",
@@ -28,7 +28,7 @@
       "name": "record_label_landing_page",
       "title": "Record Label Landing Page",
       "dates": "Sep - Oct 2022",
-      "description": "Developed the landing page for Underground Universal, a record label dedicated to providing artists complete royalty control while offering a range of services, showcasing a website that is concise and engaging while displaying the record label's dignified values.",
+      "description": "Onboarded 100+ users to Underground Universal by crafting a concise and engaging landing page, displaying the record label's dignified values and call to action to learn more and join.",
       "skills": ["Typescript", "Next", "Tailwind", "Webflow"],
       "url": "https://underground-universal-website.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website",
