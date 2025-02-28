@@ -50,8 +50,8 @@ export default function Home() {
         <Divider />
         <Education />
         <Divider />
-        <Skills />
-        <Divider />
+        {/* <Skills />
+        <Divider /> */}
       </div>
     </div>
   );
