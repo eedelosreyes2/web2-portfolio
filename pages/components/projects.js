@@ -42,7 +42,7 @@ export default function Projects() {
                 <div className="text-xl md:text-3xl">{title}</div>
                 <svg
                   data-accordion-icon
-                  className="w-4 h-4 md:w-6 md:h-6 rotate-180 shrink-0"
+                  className="ml-4 w-4 h-4 md:w-6 md:h-6 rotate-180 shrink-0"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
