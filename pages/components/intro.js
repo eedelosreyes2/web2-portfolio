@@ -24,7 +24,7 @@ export default function Intro() {
     <div className="flex flex-col md:items-center justify-center md:flex-row md:gap-16 gap-8 pb-5">
       {/* TODO: Subtle animated border */}
       <img
-        src="/elijahdr_ai.jpg"
+        src="/elijahdr.jpg"
         alt="Elijah Delos Reyes"
         className="rounded-full w-32 md:w-80"
       />
