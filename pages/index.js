@@ -44,9 +44,9 @@ export default function Home() {
         <Intro />
         {/* <Alert /> */}
         <Divider variant="small" />
-        <Projects />
-        <Divider />
         <Work />
+        <Divider />
+        <Projects />
         <Divider />
         <Education />
         <Divider />
