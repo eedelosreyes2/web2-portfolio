@@ -23,8 +23,8 @@ export default function Work() {
                 </svg>
               </span>
               <div className="flex items-center">
-                <div className="flex flex-col text-lg flex-wrap gap-1">
-                  <span className="flex items-center font-bold gap-5 text-cyan-500">
+                <div className="flex flex-col flex-wrap gap-1">
+                  <span className="flex items-center text-lg font-bold gap-5">
                     {title}{" "}
                     {i === 0 && (
                       <span className="text-center text-sm me-2 px-2.5 py-0.5 rounded bg-blue-900 text-slate-300">
@@ -33,9 +33,7 @@ export default function Work() {
                     )}
                   </span>
                   <span>{company}</span>
-                  <time className="block pb-5 text-sm leading-none">
-                    {dates}
-                  </time>
+                  <time className="pb-5 text-sm text-slate-400">{dates}</time>
                 </div>
               </div>
               <ul className="flex flex-col gap-3 text-slate-300">
@@ -48,6 +46,16 @@ export default function Work() {
                     ),
                 )}
               </ul>
+              <div className="flex flex-wrap gap-2 pt-4">
+                {skills?.map((skill) => (
+                  <span
+                    key={skill}
+                    className="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </li>
           );
         })}

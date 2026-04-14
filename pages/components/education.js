@@ -25,12 +25,14 @@ export default function Education() {
             </svg>
           </span>
           <div className="flex items-center">
-            <div className="flex flex-col text-lg flex-wrap gap-1">
-              <span className="flex items-center font-bold gap-5 text-cyan-500">
+            <div className="flex flex-col flex-wrap gap-1">
+              <span className="flex items-center text-lg font-bold gap-5">
                 {degree}
               </span>
               <span>{school}</span>
-              <time className="block pb-1 text-sm leading-none">{date}</time>
+              <time className="pb-1 text-sm text-slate-400">
+                {date}
+              </time>
             </div>
           </div>
         </li>

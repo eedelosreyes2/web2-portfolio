@@ -21,17 +21,17 @@ export default function Intro() {
   };
 
   return (
-    <div className="flex flex-col md:items-center justify-center md:flex-row md:gap-16 gap-8 pb-5">
+    <div className="flex flex-col gap-8 pb-5">
       {/* TODO: Subtle animated border */}
       <img
         src="/elijahdr.jpg"
         alt="Elijah Delos Reyes"
-        className="rounded-full w-32 md:w-80"
+        className="rounded-full w-40"
       />
       <div className="flex flex-col gap-3">
         <div className="text-4xl font-bold">Elijah Delos Reyes</div>
         <div className="text-2xl font-bold from-cyan-500 to-violet-600 bg-gradient-to-r bg-clip-text text-transparent">
-          Frontend Engineer
+          Full Stack Engineer
         </div>
         <h3 className="text-slate-300 pb-4">
           I enjoy crafting web applications displaying user-friendly and
