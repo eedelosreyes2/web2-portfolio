@@ -22,7 +22,7 @@ export default function Projects() {
             image,
           } = project;
           return (
-            <div className="flex flex-col md:flex-row gap-6 py-6">
+            <div key={id} className="flex flex-col md:flex-row gap-6 py-6">
               <div className="min-w-[300px]">
                 <img
                   src={image}
