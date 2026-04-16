@@ -19,7 +19,7 @@
     {
       "id": 7,
       "name": "underground_universal_web_app",
-      "title": "Underground Universal Web App",
+      "title": "Underground Universal - Music Distribution & Artist Collaboration Platform",
       "dates": "Oct - Feb 2023",
       "description": "Increased discoverability and support for underground musical artists by enabling them to create shareable profiles, collaborate, and distribute their music on a user-friendly platform.",
       "skills": [
@@ -41,7 +41,7 @@
     {
       "id": 6,
       "name": "record_label_landing_page",
-      "title": "Underground Universal Landing Page",
+      "title": "Underground Universal -Landing Page & Marketing Site",
       "dates": "Sep - Oct 2022",
       "description": "Onboarded 100+ users to Underground Universal by crafting a concise and engaging landing page, displaying the record label's dignified values and call to action to learn more and join.",
       "skills": ["Typescript", "Next", "Tailwind", "Webflow"],

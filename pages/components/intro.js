@@ -1,55 +1,94 @@
 import { contact } from "../clientData/contact.json";
 
 import { IconContext } from "react-icons";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, ƒ } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa6";
 
 export default function Intro() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Elijah Delos Reyes",
+    jobTitle: "Full Stack Engineer",
+    image: "https://www.elijahdelosreyes.com/elijahdr-circle.png",
+    description:
+      "I enjoy crafting web applications displaying user-friendly and functional interfaces.",
+    sameAs: contact.map((c) => c.url),
+  };
+
   const renderIcon = (platform) => {
+    const commonProps = { "aria-hidden": true, focusable: "false" };
     switch (platform) {
       case "Github":
-        return <FaGithub />;
+        return <FaGithub {...commonProps} />;
       case "LinkedIn":
-        return <FaLinkedin />;
+        return <FaLinkedin {...commonProps} />;
       case "Twitter":
-        return <FaTwitter />;
+        return <FaTwitter {...commonProps} />;
       case "Email":
-        return <FaEnvelope />;
+        return <FaEnvelope {...commonProps} />;
       case "Resume":
-        return <FaFilePdf />;
+        return <FaFilePdf {...commonProps} />;
+      default:
+        return null;
     }
   };
 
   return (
-    <div className="flex flex-col gap-8 pb-5">
-      {/* TODO: Subtle animated border */}
-      <img
-        src="/elijahdr.jpg"
-        alt="Elijah Delos Reyes"
-        className="rounded-full w-40"
-      />
+    <header className="flex flex-col gap-8" aria-labelledby="intro-heading">
+      <figure className="flex items-center gap-4">
+        <img
+          src="/elijahdr.jpg"
+          alt="Elijah Delos Reyes — Full Stack Engineer"
+          className="rounded-full w-40"
+          width="160"
+          height="160"
+          loading="lazy"
+        />
+        <figcaption className="sr-only">
+          Elijah Delos Reyes, Full Stack Engineer
+        </figcaption>
+      </figure>
+
       <div className="flex flex-col gap-3">
-        <div className="text-4xl font-bold">Elijah Delos Reyes</div>
-        <div className="text-2xl font-bold from-cyan-500 to-violet-600 bg-gradient-to-r bg-clip-text text-transparent">
+        <h1 id="intro-heading" className="text-4xl font-bold">
+          Elijah Delos Reyes
+        </h1>
+
+        <p className="text-2xl font-bold from-cyan-500 to-violet-600 bg-gradient-to-r bg-clip-text text-transparent">
           Full Stack Engineer
-        </div>
-        <h3 className="text-slate-300 pb-4">
+        </p>
+
+        <p className="text-slate-300 pb-4">
           I enjoy crafting web applications displaying user-friendly and
           functional interfaces.
-        </h3>
+        </p>
 
-        <div className="flex gap-5">
-          {contact.map(({ id, platform, url, label }) => (
-            <div key={id}>
-              <IconContext.Provider value={{ size: 30 }}>
-                <a href={url} target="_blank" rel="noopener noreferrer">
+        <IconContext.Provider value={{ size: 30 }}>
+          <ul className="flex gap-5" role="list" aria-label="Contact links">
+            {contact.map(({ id, platform, url, label }) => (
+              <li key={id}>
+                <a
+                  href={url}
+                  target="_blank"
+                  rel={`noopener noreferrer${platform !== "Email" ? " me" : ""}`}
+                  aria-label={label}
+                  title={label}
+                  className="hover:text-cyan-400 rounded inline-flex items-center"
+                >
                   {renderIcon(platform)}
+                  <span className="ml-2 hidden xs:inline">{platform}</span>
                 </a>
-              </IconContext.Provider>
-            </div>
-          ))}
-        </div>
+              </li>
+            ))}
+          </ul>
+        </IconContext.Provider>
       </div>
-    </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+    </header>
   );
 }

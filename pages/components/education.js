@@ -5,7 +5,7 @@ export default function Education() {
 
   return (
     <>
-      <div className="font-bold pb-16 text-lg">Education</div>
+      <h2 className="font-bold pb-16 text-lg">Education</h2>
       <ol className="relative border-s border-gray-700">
         <li className="mb-10 ms-6">
           <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-blue-900">
@@ -30,9 +30,21 @@ export default function Education() {
                 {degree}
               </span>
               <span>{school}</span>
-              <time className="pb-1 text-sm text-slate-400">
-                {date}
-              </time>
+              <time className="pb-5 text-sm text-slate-400">{date}</time>
+              <ul
+                className="flex flex-wrap gap-2"
+                aria-label={`Skills used in ${school}, ${degree}`}
+                role="list"
+              >
+                {courses?.map((course) => (
+                  <li
+                    key={course}
+                    className="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded"
+                  >
+                    {course}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </li>

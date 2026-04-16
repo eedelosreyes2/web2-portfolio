@@ -16,9 +16,29 @@ export default function Alert() {
       <span className="sr-only">Info</span>
       <div>
         <span className="font-bold">
-          {"I'm looking for Frontend Engineering opportunities"}
+          {
+            "I'm currently looking for Full Stack/Frontend Engineering opportunities. "
+          }
         </span>{" "}
-        - Be sure to check out my <a href="/Elijah Delos Reyes - Frontend Engineer.pdf" target="_blank" rel="noopener noreferrer" className="underline">resume</a> and <a href="mailto:delosreyes.elijah@gmail.com" target="_blank" rel="noopener noreferrer" className="underline">email me</a>!
+        Be sure to check out my{" "}
+        <a
+          href="/Elijah Delos Reyes - Frontend Engineer.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline font-bold"
+        >
+          resume
+        </a>{" "}
+        and{" "}
+        <a
+          href="mailto:delosreyes.elijah@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline font-bold"
+        >
+          contact me
+        </a>
+        !
       </div>
     </div>
   );
