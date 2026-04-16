@@ -19,7 +19,7 @@
     {
       "id": 7,
       "name": "underground_universal_web_app",
-      "title": "Underground Universal - Music Distribution & Artist Collaboration Platform",
+      "title": "Underground Universal — Music Distribution & Artist Collaboration Platform",
       "dates": "Oct - Feb 2023",
       "description": "Increased discoverability and support for underground musical artists by enabling them to create shareable profiles, collaborate, and distribute their music on a user-friendly platform.",
       "skills": [
@@ -41,7 +41,7 @@
     {
       "id": 6,
       "name": "record_label_landing_page",
-      "title": "Underground Universal -Landing Page & Marketing Site",
+      "title": "Underground Universal — Landing Page & Marketing Site",
       "dates": "Sep - Oct 2022",
       "description": "Onboarded 100+ users to Underground Universal by crafting a concise and engaging landing page, displaying the record label's dignified values and call to action to learn more and join.",
       "skills": ["Typescript", "Next", "Tailwind", "Webflow"],
@@ -52,9 +52,9 @@
     {
       "id": 5,
       "name": "web3_discovery",
-      "title": "Web3 Discovery",
+      "title": "Web3 Discovery — Blockchain Ecosystem Explorer",
       "dates": "Apr - May 2022",
-      "description": "Developed a Web3 discovery application facilitating effortless exploration of 50+ blockchain companies and platforms, offering dynamic filtering, search, and detailed insights into the ecosystem.",
+      "description": "Developed a Web3 discovery application facilitating effortless exploration of 50+ blockchain companies and platforms, offering dynamic filtering, search, and detailed insights into the space.",
       "skills": [
         "Typescript",
         "Next",
@@ -81,7 +81,7 @@
     {
       "id": 2,
       "name": "twitter_react_app",
-      "title": "Twitter React App",
+      "title": "Twitter React Clone",
       "dates": "Jul - Sep 2020",
       "description": "Engineered a replica of the Twitter web app using React, featuring essential post, like, and retweet functionalities within a visually identical and responsive user interface, designed for optimal performance across all devices.",
       "skills": ["Javascript", "React", "JSX", "Bootstrap"],
@@ -92,7 +92,7 @@
     {
       "id": 1,
       "name": "pizza_ordering_app",
-      "title": "Pizza Ordering App",
+      "title": "Pizza Ordering Platform",
       "dates": "Jun - Oct 2017",
       "description": "Explored basic developement through building one of my first personal projects, a Java Swing application for streamlined pizza ordering.",
       "skills": ["Java", "Java Swing"],
