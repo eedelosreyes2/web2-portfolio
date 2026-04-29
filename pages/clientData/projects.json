@@ -7,7 +7,7 @@
       "dates": "Mar 2025",
       "description": "Showcased how AI can automate frontend development, handling layout, styling, responsiveness, and interactivity to create a reusable landing page.",
       "skills": [
-        "Typescript",
+        "TypeScript",
         "Next",
         "Tailwind",
         "ChatGPT"
@@ -23,7 +23,7 @@
       "dates": "Oct - Feb 2023",
       "description": "Increased discoverability and support for underground musical artists by enabling them to create shareable profiles, collaborate, and distribute their music on a user-friendly platform.",
       "skills": [
-        "Typescript",
+        "TypeScript",
         "Next",
         "Tailwind",
         "Graphql",
@@ -44,7 +44,7 @@
       "title": "Underground Universal — Landing Page & Marketing Site",
       "dates": "Sep - Oct 2022",
       "description": "Onboarded 100+ users to Underground Universal by crafting a concise and engaging landing page, displaying the record label's dignified values and call to action to learn more and join.",
-      "skills": ["Typescript", "Next", "Tailwind", "Webflow"],
+      "skills": ["TypeScript", "Next", "Tailwind", "Webflow"],
       "url": "https://underground-universal-website.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website",
       "image": "/projects/UU_Landing_Page.png"
@@ -56,7 +56,7 @@
       "dates": "Apr - May 2022",
       "description": "Developed a Web3 discovery application facilitating effortless exploration of 50+ blockchain companies and platforms, offering dynamic filtering, search, and detailed insights into the space.",
       "skills": [
-        "Typescript",
+        "TypeScript",
         "Next",
         "Tailwind",
         "Prisma",
@@ -73,7 +73,7 @@
       "title": "Whac-a-NFT",
       "dates": "Jul 2022",
       "description": "Seamlessly integrated NFTs into an play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
-      "skills": ["Typescript", "Next", "Tailwind", "Moralis Solana"],
+      "skills": ["TypeScript", "Next", "Tailwind", "Moralis Solana"],
       "url": "https://whac-a-nft.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/whac-a-nft",
       "image": "/projects/Whac_a_NFT.png"

@@ -15,24 +15,24 @@ export default function Home() {
     name: "Elijah Delos Reyes",
     url: "https://www.elijahdelosreyes.com/",
     image: "https://www.elijahdelosreyes.com/elijahdr_ai.jpg",
-    jobTitle: "Full Stack Developer",
+    jobTitle: "Full Stack Engineer",
     description:
-      "Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, Tailwind CSS, and AWS.",
+      "Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Next.js, Tailwind CSS, and AWS — leveraging AI tools to build fast, production-ready web applications. Browse projects and experience.",
   };
 
   return (
     <div className="bg-slate-900 text-white w-full overflow-hidden">
       <Helmet htmlAttributes={{ lang: "en" }}>
-        <title>Elijah Delos Reyes — Full Stack Developer</title>
+        <title>Elijah Delos Reyes — Full Stack Engineer</title>
 
         <meta
           name="description"
-          content="Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, Tailwind CSS, and AWS. Browse projects and experience."
+          content="Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Next.js, Tailwind CSS, and AWS — leveraging AI tools to build fast, production-ready web applications. Browse projects and experience."
         />
         <meta name="author" content="Elijah Delos Reyes" />
         <meta
           name="keywords"
-          content="Elijah Delos Reyes, full-stack developer, Typescript, Next.js, Tailwind CSS, AWS"
+          content="Elijah Delos Reyes, Full Stack Engineer, Frontend Engineer, TypeScript, Next.js, Tailwind CSS, AWS, AI"
         />
         <meta
           name="image"
@@ -41,11 +41,11 @@ export default function Home() {
 
         <meta
           property="og:title"
-          content="Elijah Delos Reyes — Full Stack Developer"
+          content="Elijah Delos Reyes — Full Stack Engineer"
         />
         <meta
           property="og:description"
-          content="Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, Tailwind CSS, and AWS. Browse projects and experience."
+          content="Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Next.js, Tailwind CSS, and AWS — leveraging AI tools to build fast, production-ready web applications. Browse projects and experience."
         />
         <meta
           property="og:image"
@@ -73,7 +73,7 @@ export default function Home() {
         aria-labelledby="site-heading"
       >
         <h1 id="site-heading" className="sr-only">
-          Elijah Delos Reyes — Full Stack Developer (Typescript, Next.js,
+          Elijah Delos Reyes — Full Stack Engineer (TypeScript, Next.js,
           Tailwind CSS, AWS)
         </h1>
 
