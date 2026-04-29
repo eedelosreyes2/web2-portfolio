@@ -17,7 +17,7 @@ export default function Home() {
     image: "https://www.elijahdelosreyes.com/elijahdr-circle.png",
     jobTitle: "Full Stack Developer",
     description:
-      "Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, and Tailwind CSS.",
+      "Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, Tailwind CSS, and AWS.",
   };
 
   return (
@@ -27,12 +27,12 @@ export default function Home() {
 
         <meta
           name="description"
-          content="Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, and Tailwind CSS. Browse projects and experience."
+          content="Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, Tailwind CSS, and AWS. Browse projects and experience."
         />
         <meta name="author" content="Elijah Delos Reyes" />
         <meta
           name="keywords"
-          content="Elijah Delos Reyes, full-stack developer, Typescript, Next.js, Tailwind CSS"
+          content="Elijah Delos Reyes, full-stack developer, Typescript, Next.js, Tailwind CSS, AWS"
         />
         <meta
           name="image"
@@ -45,7 +45,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, and Tailwind CSS. Browse projects and experience."
+          content="Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, Tailwind CSS, and AWS. Browse projects and experience."
         />
         <meta
           property="og:image"
@@ -77,7 +77,7 @@ export default function Home() {
       >
         <h1 id="site-heading" className="sr-only">
           Elijah Delos Reyes — Full Stack Developer (Typescript, Next.js,
-          Tailwind CSS)
+          Tailwind CSS, AWS)
         </h1>
 
         <header role="banner" aria-label="Intro">
