@@ -60,8 +60,8 @@ export default function Intro() {
         </p>
 
         <p className="text-slate-300 pb-4">
-          I enjoy crafting web applications displaying user-friendly and
-          functional interfaces.
+          I leverage AI to craft fast, clean, production-ready web applications
+          focused on performance and UX.
         </p>
 
         <IconContext.Provider value={{ size: 30 }}>

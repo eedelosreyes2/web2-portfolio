@@ -74,7 +74,7 @@ export default function Home() {
       >
         <h1 id="site-heading" className="sr-only">
           Elijah Delos Reyes — Full Stack Engineer (TypeScript, Next.js,
-          Tailwind CSS, AWS)
+          Tailwind CSS, AWS, AI)
         </h1>
 
         <header role="banner" aria-label="Intro">
