@@ -14,7 +14,7 @@ export default function Home() {
     "@type": "Person",
     name: "Elijah Delos Reyes",
     url: "https://www.elijahdelosreyes.com/",
-    image: "https://www.elijahdelosreyes.com/elijahdr-circle.png",
+    image: "https://www.elijahdelosreyes.com/elijahdr_ai.jpg",
     jobTitle: "Full Stack Developer",
     description:
       "Elijah Delos Reyes is a full stack developer specializing in Typescript, Next.js, Tailwind CSS, and AWS.",
@@ -36,7 +36,7 @@ export default function Home() {
         />
         <meta
           name="image"
-          content="https://www.elijahdelosreyes.com/elijahdr-circle.png"
+          content="https://www.elijahdelosreyes.com/elijahdr_ai.jpg"
         />
 
         <meta
@@ -49,7 +49,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://www.elijahdelosreyes.com/elijahdr-circle.png"
+          content="https://www.elijahdelosreyes.com/elijahdr_ai.jpg"
         />
         <meta property="og:url" content="https://www.elijahdelosreyes.com/" />
         <meta property="og:type" content="website" />
@@ -58,10 +58,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#0f172a" />
 
-        <link
-          rel="icon"
-          href="https://www.elijahdelosreyes.com/elijahdr-circle.png"
-        />
+        <link rel="icon" href="https://www.elijahdelosreyes.com/favicon.ico" />
         <link rel="canonical" href="https://www.elijahdelosreyes.com/" />
 
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

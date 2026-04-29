@@ -10,7 +10,7 @@ export default function Intro() {
     "@type": "Person",
     name: "Elijah Delos Reyes",
     jobTitle: "Full Stack Engineer",
-    image: "https://www.elijahdelosreyes.com/elijahdr-circle.png",
+    image: "https://www.elijahdelosreyes.com/elijahdr_ai.jpg",
     description:
       "I enjoy crafting web applications displaying user-friendly and functional interfaces.",
     sameAs: contact.map((c) => c.url),
