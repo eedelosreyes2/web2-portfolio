@@ -104,7 +104,7 @@
       "name": "dont_get_hit_by_the_hay",
       "title": "Don't Get Hit By The Hay",
       "dates": "Dec - Jan 2017",
-      "description": "Dove into my first ever personal project and created a platform type game, written in Python, where you try to avoid falling objects.",
+      "description": "Dove into my first ever personal project and created a platform type game where you try to avoid falling objects.",
       "skills": ["Python", "Pygame"],
       "github_url": "https://github.com/eedelosreyes2/Python-Game",
       "image": "/projects/DontGetHitByTheHay.png"

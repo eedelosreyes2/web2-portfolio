@@ -21,7 +21,7 @@
     {
       "id": 1,
       "company": "Buzzable",
-      "name": "boonoob",
+      "name": "buzzable",
       "title": "Full Stack Engineer",
       "dates": "Jun - Nov 2020",
       "description": "Conceptualized and executed user-friendly features, resulting in a 20% boost in user acquisition through collaboration with the business and production teams. Orchestrated the design and implementation of foundational REST API endpoints asynchronously in Node, instrumental in the company's early stages and gaining initial users.",
@@ -35,7 +35,7 @@
         "MongoDB",
         "Postman"
       ],
-      "url": "https://boonoob.com/"
+      "url": "https://buzzable.com/"
     },
     {
       "id": 2,
