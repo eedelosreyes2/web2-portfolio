@@ -104,7 +104,7 @@ export default function Projects() {
                       ))}
                     </ul>
 
-                    <div className="flex flex-col md:flex-row gap-3 mt-4 w-full md:w-max">
+                    <div className="flex flex-col md:flex-row gap-3 mt-5 w-full md:w-max">
                       {url && (
                         <a
                           href={url}

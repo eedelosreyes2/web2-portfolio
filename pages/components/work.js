@@ -97,7 +97,7 @@ export default function Work() {
               </div>
 
               <ul
-                className="flex flex-col gap-3 text-slate-300"
+                className="flex flex-col gap-5 text-slate-300"
                 aria-label={`${company} responsibilities`}
               >
                 {sentences.map((item, si) => (
@@ -111,7 +111,7 @@ export default function Work() {
 
               {skills && skills.length > 0 && (
                 <ul
-                  className="flex flex-wrap gap-2 pt-4"
+                  className="flex flex-wrap gap-2 pt-5"
                   aria-label={`${company} skills`}
                 >
                   {skills.map((skill) => (
