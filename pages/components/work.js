@@ -16,7 +16,7 @@ export default function Work() {
             job;
 
           const sentences = (description || "")
-            .split(".")
+            .split(". ")
             .map((s) => s.trim())
             .filter(Boolean)
             .map((s) => (/[.!?]$/.test(s) ? s : `${s}.`));
