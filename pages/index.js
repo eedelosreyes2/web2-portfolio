@@ -73,8 +73,10 @@ export default function Home() {
         aria-labelledby="site-heading"
       >
         <h1 id="site-heading" className="sr-only">
-          Elijah Delos Reyes — Full Stack Engineer (TypeScript, Next.js,
-          Tailwind CSS, AWS, AI)
+          Elijah Delos Reyes is a Full Stack Engineer specializing in
+          TypeScript, Next.js, Tailwind CSS, and AWS — leveraging AI tools to
+          build fast, production-ready web applications. Browse projects and
+          experience.
         </h1>
 
         <header role="banner" aria-label="Intro">
