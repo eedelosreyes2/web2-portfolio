@@ -84,7 +84,7 @@
       "title": "Twitter React Clone",
       "dates": "Jul - Sep 2020",
       "description": "Engineered a replica of the Twitter web app using React, featuring essential post, like, and retweet functionalities within a visually identical and responsive user interface, designed for optimal performance across all devices.",
-      "skills": ["Javascript", "React", "JSX", "Bootstrap"],
+      "skills": ["JavaScript", "React", "JSX", "Bootstrap"],
       "url": "https://twitter-react-eli.vercel.app",
       "github_url": "https://github.com/eedelosreyes2/twitter-react",
       "image": "/projects/Twitter_React_App.png"

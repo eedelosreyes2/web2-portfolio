@@ -8,13 +8,13 @@
       "dates": "Nov 2020 - Present",
       "description": "Engineering an enterprise-scale component library of 100+ high-performance, customer-facing web components with 300+ variants — integrating complex third-party APIs and driving cross-team implementation, standardizing UI across 20+ global production sites. Architecting and deploying secure, serverless AWS APIs using CDK, Lambda, API Gateway, and S3, serving as the team's primary resource for cloud infrastructure. Leading the migration of core codebases from GitLab to GitHub and eliminating manual release steps, streamlining the deployment process by automating end-to-end CI/CD pipelines. Improving website performance by optimizing the critical rendering path, bundle sizes, and CSS delivery, achieving measurable gains in Core Web Vitals and Lighthouse scores. Reducing production bugs by leading the implementation of Chromatic automated visual regression testing, improving confidence in UI changes across 100+ components.",
       "skills": [
-        "Typescript",
-        "React",
+        "TypeScript",
         "Stencil",
         "Storybook",
         "Chromatic",
         "AWS",
-        "Postman"
+        "Postman",
+        "GitHub Copilot"
       ],
       "url": "https://roberthalf.com/"
     },
@@ -26,7 +26,7 @@
       "dates": "Jun - Nov 2020",
       "description": "Spearheaded the development of core product features using React, resulting in a 20% boost in user acquisition through cross-functional collaboration with product and business teams. Designed foundational REST API endpoints using Node.js, establishing the core backend infrastructure during the company's early stages to support initial user scaling.",
       "skills": [
-        "Javascript",
+        "JavaScript",
         "React",
         "Node",
         "REST",
@@ -45,7 +45,7 @@
       "dates": "Jan - May 2020",
       "description": "Architected a unified newsfeed application aggregating real-time data from Twitter, Facebook, and Instagram APIs, providing users a centralized view across all major social platforms.",
       "skills": [
-        "Javascript",
+        "JavaScript",
         "Vue",
         "Node",
         "REST",
@@ -63,7 +63,7 @@
       "title": "Frontend Engineer Intern",
       "dates": "May - Aug 2019",
       "description": "Developed key front-page features to drive user engagement and optimized website performance through code refinements, contributing to a more responsive user experience.",
-      "skills": ["Javascript", "HTML/CSS", "Heroku"],
+      "skills": ["JavaScript", "HTML/CSS", "Heroku"],
       "url": "https://www.linkedin.com/company/thinqtv/"
     }
   ]

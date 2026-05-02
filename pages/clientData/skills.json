@@ -2,7 +2,7 @@
   "skills": [
     {
       "id": 0,
-      "name": "Javascript",
+      "name": "JavaScript",
       "image": "/technologies/javascript.svg"
     },
     {
