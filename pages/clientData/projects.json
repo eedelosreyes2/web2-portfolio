@@ -8,8 +8,8 @@
       "description": "Showcased how AI can automate frontend development, handling layout, styling, responsiveness, and interactivity to create a reusable landing page.",
       "skills": [
         "TypeScript",
-        "Next",
-        "Tailwind",
+        "Next.js",
+        "Tailwind CSS",
         "ChatGPT"
       ],
       "url": "https://ai-generated-generic-landing-page.vercel.app/",
@@ -24,10 +24,10 @@
       "description": "Increased discoverability and support for underground musical artists by enabling them to create shareable profiles, collaborate, and distribute their music on a user-friendly platform.",
       "skills": [
         "TypeScript",
-        "Next",
-        "Tailwind",
-        "Graphql",
-        "Postgres",
+        "Next.js",
+        "Tailwind CSS",
+        "GraphQL",
+        "PostgreSQL",
         "Apollo",
         "Prisma",
         "Supabase",
@@ -44,7 +44,7 @@
       "title": "Underground Universal — Landing Page & Marketing Site",
       "dates": "Sep - Oct 2022",
       "description": "Onboarded 100+ users to Underground Universal by crafting a concise and engaging landing page, displaying the record label's dignified values and call to action to learn more and join.",
-      "skills": ["TypeScript", "Next", "Tailwind", "Webflow"],
+      "skills": ["TypeScript", "Next.js", "Tailwind CSS", "Webflow"],
       "url": "https://underground-universal-website.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/underground-universal-website",
       "image": "/projects/UU_Landing_Page.png"
@@ -57,10 +57,10 @@
       "description": "Developed a Web3 discovery application facilitating effortless exploration of 50+ blockchain companies and platforms, offering dynamic filtering, search, and detailed insights into the space.",
       "skills": [
         "TypeScript",
-        "Next",
-        "Tailwind",
+        "Next.js",
+        "Tailwind CSS",
         "Prisma",
-        "Postgres",
+        "PostgreSQL",
         "Heroku"
       ],
       "url": "https://web3-company-discovery-9ndql3i1d-eedelosreyes2.vercel.app/",
@@ -73,7 +73,7 @@
       "title": "Whac-a-NFT",
       "dates": "Jul 2022",
       "description": "Seamlessly integrated NFTs into an play-to-earn blockchain game reminiscent of Whac-a-Mole, allowing users to showcase their digital assets while also providing access to on-chain leaderboards to track player scores.",
-      "skills": ["TypeScript", "Next", "Tailwind", "Moralis Solana"],
+      "skills": ["TypeScript", "Next.js", "Tailwind CSS", "Moralis Solana API"],
       "url": "https://whac-a-nft.vercel.app/",
       "github_url": "https://github.com/eedelosreyes2/whac-a-nft",
       "image": "/projects/Whac_a_NFT.png"

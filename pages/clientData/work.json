@@ -9,7 +9,7 @@
       "description": "Engineering an enterprise-scale component library of 140+ high-performance, customer-facing web components with 300+ variants — integrating complex third-party APIs and driving cross-team implementation, standardizing UI across 20+ global production sites. Architecting and deploying secure, serverless AWS APIs using CDK, Lambda, API Gateway, and S3, serving as the team's primary resource for cloud infrastructure. Leading the migration of core codebases from GitLab to GitHub and streamlining the deployment process by automating end-to-end CI/CD pipelines with GitHub Actions. Improving website performance by optimizing bundle sizes, CSS delivery, critical rendering path, and JavaScript execution, achieving measurable gains in Core Web Vitals and Lighthouse scores. Reducing production bugs by leading the implementation of Chromatic automated visual regression testing, improving confidence in UI changes across 140+ components.",
       "skills": [
         "TypeScript",
-        "Stencil",
+        "Stencil.js",
         "Storybook",
         "Chromatic",
         "AWS",
@@ -28,12 +28,12 @@
       "skills": [
         "JavaScript",
         "React",
-        "Node",
-        "REST",
-        "Express",
-        "Stripe",
-        "MongoDB",
-        "Postman"
+        "Node.js",
+        "Express.js",
+        "REST API",
+        "Stripe API",
+        "Postman",
+        "MongoDB"
       ],
       "url": "https://buzzable.com/"
     },
@@ -46,13 +46,13 @@
       "description": "Architected a unified newsfeed application that aggregates real-time data from Twitter, Facebook, and Instagram APIs, providing users with a centralized view across all major social platforms.",
       "skills": [
         "JavaScript",
-        "Vue",
-        "Node",
-        "REST",
-        "Express",
+        "Vue.js",
+        "Node.js",
+        "Express.js",
         "Axios",
-        "MongoDB",
-        "Postman"
+        "REST API",
+        "Postman",
+        "MongoDB"
       ],
       "url": "https://fanmire.com/"
     },
