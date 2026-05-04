@@ -6,7 +6,7 @@
       "name": "robert_half",
       "title": "Full Stack Engineer III",
       "dates": "Nov 2020 - Present",
-      "description": "Engineering an enterprise-scale component library of 100+ high-performance, customer-facing web components with 300+ variants — integrating complex third-party APIs and driving cross-team implementation, standardizing UI across 20+ global production sites. Architecting and deploying secure, serverless AWS APIs using CDK, Lambda, API Gateway, and S3, serving as the team's primary resource for cloud infrastructure. Leading the migration of core codebases from GitLab to GitHub and eliminating manual release steps, streamlining the deployment process by automating end-to-end CI/CD pipelines. Improving website performance by optimizing the critical rendering path, bundle sizes, and CSS delivery, achieving measurable gains in Core Web Vitals and Lighthouse scores. Reducing production bugs by leading the implementation of Chromatic automated visual regression testing, improving confidence in UI changes across 100+ components.",
+      "description": "Engineering an enterprise-scale component library of 140+ high-performance, customer-facing web components with 300+ variants — integrating complex third-party APIs and driving cross-team implementation, standardizing UI across 20+ global production sites. Architecting and deploying secure, serverless AWS APIs using CDK, Lambda, API Gateway, and S3, serving as the team's primary resource for cloud infrastructure. Leading the migration of core codebases from GitLab to GitHub and streamlining the deployment process by automating end-to-end CI/CD pipelines with GitHub Actions. Improving website performance by optimizing bundle sizes, CSS delivery, critical rendering path, and JavaScript execution, achieving measurable gains in Core Web Vitals and Lighthouse scores. Reducing production bugs by leading the implementation of Chromatic automated visual regression testing, improving confidence in UI changes across 140+ components.",
       "skills": [
         "TypeScript",
         "Stencil",
@@ -24,7 +24,7 @@
       "name": "buzzable",
       "title": "Full Stack Engineer",
       "dates": "Jun - Nov 2020",
-      "description": "Spearheaded the development of core product features using React, resulting in a 20% boost in user acquisition through cross-functional collaboration with product and business teams. Designed foundational REST API endpoints using Node.js, establishing the core backend infrastructure during the company's early stages to support initial user scaling.",
+      "description": "Spearheaded the development of core product features, resulting in a 20% boost in user acquisition through cross-functional collaboration with product and business teams. Designed foundational REST API endpoints, establishing the core backend infrastructure during the company’s early stages to support initial user scaling.",
       "skills": [
         "JavaScript",
         "React",
@@ -43,7 +43,7 @@
       "name": "fanmire",
       "title": "Full Stack Engineer",
       "dates": "Jan - May 2020",
-      "description": "Architected a unified newsfeed application aggregating real-time data from Twitter, Facebook, and Instagram APIs, providing users a centralized view across all major social platforms.",
+      "description": "Architected a unified newsfeed application that aggregates real-time data from Twitter, Facebook, and Instagram APIs, providing users with a centralized view across all major social platforms.",
       "skills": [
         "JavaScript",
         "Vue",
