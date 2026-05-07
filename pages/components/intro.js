@@ -12,7 +12,7 @@ export default function Intro() {
     jobTitle: "Full Stack Engineer",
     image: "https://www.elijahdelosreyes.com/elijahdr_ai.jpg",
     description:
-      "Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Next.js, Tailwind CSS, and AWS — leveraging AI tools to build fast, production-ready web applications. Browse projects and experience.",
+      "Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Stencil.js, and AWS — leveraging AI tools (GitHub Copilot, Claude) to build fast, production-ready web applications. Browse projects and experience.",
     sameAs: contact.map((c) => c.url),
   };
 

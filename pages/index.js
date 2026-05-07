@@ -17,7 +17,7 @@ export default function Home() {
     image: "https://www.elijahdelosreyes.com/elijahdr_ai.jpg",
     jobTitle: "Full Stack Engineer",
     description:
-      "Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Next.js, Tailwind CSS, and AWS — leveraging AI tools to build fast, production-ready web applications. Browse projects and experience.",
+      "Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Stencil.js, and AWS — leveraging AI tools (GitHub Copilot, Claude) to build fast, production-ready web applications. Browse projects and experience.",
   };
 
   return (
@@ -27,12 +27,12 @@ export default function Home() {
 
         <meta
           name="description"
-          content="Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Next.js, Tailwind CSS, and AWS — leveraging AI tools to build fast, production-ready web applications. Browse projects and experience."
+          content="Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Stencil.js, and AWS — leveraging AI tools (GitHub Copilot, Claude) to build fast, production-ready web applications. Browse projects and experience."
         />
         <meta name="author" content="Elijah Delos Reyes" />
         <meta
           name="keywords"
-          content="Elijah Delos Reyes, Full Stack Engineer, Frontend Engineer, TypeScript, Next.js, Tailwind CSS, AWS, AI"
+          content="Elijah Delos Reyes, Full Stack Engineer, Frontend Engineer, TypeScript, Stencil.js, AWS, AI"
         />
         <meta
           name="image"
@@ -45,7 +45,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Next.js, Tailwind CSS, and AWS — leveraging AI tools to build fast, production-ready web applications. Browse projects and experience."
+          content="Elijah Delos Reyes is a Full Stack Engineer specializing in TypeScript, Stencil.js, and AWS — leveraging AI tools (GitHub Copilot, Claude) to build fast, production-ready web applications. Browse projects and experience."
         />
         <meta
           property="og:image"
@@ -74,9 +74,9 @@ export default function Home() {
       >
         <h1 id="site-heading" className="sr-only">
           Elijah Delos Reyes is a Full Stack Engineer specializing in
-          TypeScript, Next.js, Tailwind CSS, and AWS — leveraging AI tools to
-          build fast, production-ready web applications. Browse projects and
-          experience.
+          TypeScript, Stencil.js, and AWS — leveraging AI tools (GitHub Copilot,
+          Claude) to build fast, production-ready web applications. Browse
+          projects and experience.
         </h1>
 
         <header role="banner" aria-label="Intro">
